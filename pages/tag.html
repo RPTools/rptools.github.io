@@ -1,0 +1,10 @@
+---
+title: Tags
+---
+
+{%- for tag in site.tag -%}
+<div>
+    <a href="{{ tag.url | escape }}"><i class="fa-solid fa-tag"></i> {{ tag.title | escape }}</a>
+		<span> — {{ site.tags[tag.slug].size | default: 0 | escape }} posts</span>
+</div>
+{%- endfor -%}

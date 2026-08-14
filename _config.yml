@@ -67,6 +67,9 @@ defaults:
 
 collections_dir: collections
 collections:
+  tag:
+    output: true
+    permalink: /:collection/:title/
   author:
     output: true
     permalink: /:collection/:title/
