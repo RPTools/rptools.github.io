@@ -34,12 +34,16 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+paginate: 10
+paginate_path: "/dev-blog/page/:num/"
+
 sass:
   quiet_deps: true
 minima:
   show_excerpts: true
   nav_pages:
     - index.html
+    - dev-blog/index.html  # Fragile: This relies on the first page coming first in site.pages
     - pages/toolbox.html
     - pages/community.html
     - pages/tutorials.html
@@ -68,6 +72,10 @@ defaults:
 
 collections_dir: collections
 collections:
+  posts:
+    output: true
+    # Pretty URLs for posts without the day included
+    permalink: /:year/:month/:title/
   tag:
     output: true
     permalink: /:collection/:title/
