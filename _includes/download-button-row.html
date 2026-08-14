@@ -1,0 +1,7 @@
+<div class="button-link-row">
+{%- for asset in include.assets -%}
+{%- assign download_button_type = asset[0] -%}
+{%- assign download_button_url = asset[1] -%}
+{%- include download-button.html type=download_button_type url=download_button_url text=download_button_type -%}
+{%- endfor -%}
+</div>

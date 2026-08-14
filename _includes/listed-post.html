@@ -1,0 +1,46 @@
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<li class="post-list__item">
+		{%- if post.icon -%}
+		<div class="post-list__item-icon">
+				<img src="{{ post.icon | escape }}">
+		</div>
+		{%- endif -%}
+		<div class="post-list__item-summary article-preview">
+				<div class="article-preview__title">
+						<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+				</div>
+				<div class="article-preview__meta article-meta">
+						<time class="article-meta__date">{{ post.date | date: date_format }}</time>
+						{%- if post.author -%}
+						<span class="article-meta__authors">
+								{%- for author_slug in post.author %}
+								{%- capture author_cond -%}user.slug == '{{ author_slug }}'{%- endcapture -%}
+								{%- assign author = site.author | find_exp:"user", author_cond -%}
+								<span class="article-meta__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+										<a href="{{ author.url }}" class="p-author h-card" itemprop="name">
+												<i class="fa-solid fa-user"></i> {{ author.title }}
+										</a>
+								</span>
+								{%- if forloop.last == false %}, {% endif -%}
+								{% endfor %}
+						</span>
+						{%- endif -%}
+
+						{%- if post.categories.size > 0 -%}
+						<div class="article-meta__categories">
+								<i class="article-meta__categories-icon fa-regular fa-folder"></i>
+								{%- for tag in post.categories -%}
+								{%- capture topic_cond -%}page.slug == '{{ tag }}'{%- endcapture -%}
+								{%- assign topic_page = site.category | find_exp:"page", topic_cond -%}
+								<a href="{{ topic_page.url | escape }}">{{ topic_page.title | escape }}</a>
+								{% unless forloop.last %} / {% endunless %}
+								{%- endfor -%}
+						</div>
+						{%- endif -%}
+				</div>
+
+				{%- if site.minima.show_excerpts -%}
+				<div class="article-preview__excerpt">{{ post.excerpt | strip_html }}</div>
+				{%- endif -%}
+		</div>
+</li>

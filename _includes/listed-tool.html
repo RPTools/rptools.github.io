@@ -1,0 +1,17 @@
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<li class="post-list__item">
+		{%- if tool.icon -%}
+		<div class="post-list__item-icon">
+				<img src="{{ tool.icon | escape }}">
+		</div>
+		{%- endif -%}
+		<div class="post-list__item-summary article-preview">
+				<div class="article-preview__title">
+						<a href="{{ tool.url | relative_url }}">{{ tool.title | escape }}</a>
+				</div>
+
+				{%- if site.minima.show_excerpts -%}
+				<div class="article-preview__excerpt">{{ tool.summary | strip_html }}</div>
+				{%- endif -%}
+		</div>
+</li>
