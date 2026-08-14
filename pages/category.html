@@ -1,0 +1,10 @@
+---
+title: Categories
+---
+
+{%- for tag in site.category -%}
+<div>
+    <a href="{{ tag.url | escape }}"><i class="fa-regular fa-folder"></i> {{ tag.title | escape }}</a>
+</div>
+{%- endfor -%}
+

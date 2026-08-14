@@ -1,0 +1,26 @@
+---
+layout: base
+---
+{%- assign tag_posts = site.categories[page.slug] -%}
+
+<article class="post">
+  <header class="post-header">
+			<h1 class="post-title">&ldquo;{{ page.title | escape }}&rdquo; topic</h1>
+  </header>
+	
+  <div class="post-content">
+			{{ content }}
+
+			<h2>Posts in this topic</h2>
+			{%- if tag_posts -%}
+			<ul class="post-list">
+					{%- for post in tag_posts -%}
+					{%- include listed-post.html post=post -%}
+					{%- endfor -%}
+			</ul>
+			{%- else -%}
+			<em>This topic has no posts yet.</em>
+			{%- endif -%}
+  </div>
+
+</article>

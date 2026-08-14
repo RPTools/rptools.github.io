@@ -70,6 +70,15 @@ collections:
   tag:
     output: true
     permalink: /:collection/:title/
+  category:
+    output: true
+    permalink: /:collection/:path/
+    order:
+      - community.html
+      - devupdate.html
+      - general.html
+      - interview.html
+      - release.html
   author:
     output: true
     permalink: /:collection/:title/
