@@ -1,0 +1,613 @@
+/* region Basics */
+
+html {
+  scrollbar-gutter: stable;
+}
+
+.home-header {
+  margin-bottom: $spacing-unit;
+  padding-bottom: 18px;
+  border-bottom: 1px solid $border-color-01;
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+}
+
+.social-links__tagline {
+  width: 100%;
+  text-align: center;
+}
+
+.home {
+  margin-bottom: $spacing-unit;
+  padding-bottom: 18px;
+  border-bottom: 1px solid $border-color-01;
+
+  h1 {
+    margin-bottom: 10px;
+    @include relative-font-size(2.625);
+    font-weight: $base-font-weight;
+    letter-spacing: -1px;
+    line-height: 1.15;
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(2.625);
+    }
+  }
+
+  h2 {
+    @include relative-font-size(1.75);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(2);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.375);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(1.625);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+  }
+
+  h5 {
+    @include relative-font-size(1.125);
+  }
+  h6 {
+    @include relative-font-size(1.0625);
+  }
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+}
+.page-content .wrapper {
+  min-width: $content-width;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content .wrapper .post {
+  flex-grow: 1;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+}
+.post-content {
+  h1, h2, h3, h4, h5, h6 {
+    clear: both;
+  }
+
+  flex-grow: 1;
+}
+
+.post-icon {
+  height: 8em;
+  margin: 1em 0;
+}
+
+.post-categories {
+  margin: 0.5em 0;
+}
+.post-categories-icon {
+  margin-right: 1ch;
+}
+
+/* For images and such that should be displayed centered on their own. */
+.post-example {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.post-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2 * $spacing-unit;
+
+  .post-navigation__block {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-navigation__block.post-navigation__block--previous {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .post-navigation__block.post-navigation__block--next {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .post-navigation__title {
+    font-size: smaller;
+  }
+  .post-navigation__text {
+    color: black;
+  }
+}
+
+code {
+  background-color: #818b981f;
+  padding: 0.1em 0.5ch;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 1.5em;
+}
+
+.float-right {
+  float: right;
+  margin-left: 1.5em;
+}
+
+/* endregion */
+
+.video-embed {
+  margin: 1em auto;
+  width: 560px;
+  height: 315px;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.video-embed iframe {
+  postiion: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* region Informational banners */
+
+.alert {
+  border-style: solid;
+
+  /* top | right | bottom | left */
+  border-width: 1px 1px 1px 5px;
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 5px 15px 15px 5px;
+
+  /* top-and-bottom | left-and-right */
+  padding: 0.25em 0.75em;
+
+  /* top | right | bottom | left */
+  margin: 1em auto 1em 0ch; /* Left-align the div and add some vertical space */
+
+  width: 100%;
+}
+
+.alert > p.alert-title {
+  margin-bottom: 0.25em;
+}
+.alert > p:first-child {
+  margin-top: 0em;
+}
+
+.alert > p:last-child {
+  margin-bottom: 0em;
+}
+
+.alert.alert--note {
+  background-color: rgb(9 105 218 / 5%);
+  border-color: rgb(9 105 218);
+}
+.alert.alert--note .alert-title {
+  color: rgb(9 105 218);
+}
+
+.alert.alert--tip {
+  background-color: rgb(26 127 55 / 5%);
+  border-color: rgb(26 127 55);
+}
+.alert.alert--tip .alert-title {
+  color: rgb(26 127 55);
+}
+
+.alert.alert--important {
+  background-color: rgb(130 80 223 / 5%);
+  border-color: rgb(130 80 223);
+}
+.alert.alert--important .alert-title {
+  color: rgb(130 80 223);
+}
+
+.alert.alert--warning {
+  background-color: rgba(154 103 0 / 5%);
+  border-color: rgb(154 103 0);
+}
+.alert.alert--warning .alert-title {
+  color: rgb(154 103 0);
+}
+
+.alert.alert--caution {
+  background-color: rgba(207 34 46 / 5%);
+  border-color: rgb(207 34 46);
+}
+.alert.alert--caution .alert-title {
+  color: rgb(207 34 46);
+}
+
+/* endregion */
+
+/* region Nice headers with multiple rows */
+
+.listed-post-header {
+  margin-block-end: 1em;
+}
+.listed-post-header {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0 !important;
+  }
+}
+
+/* endregion */
+
+/* region Article previews. E.g., for blog posts or toolbox entries */
+
+
+.article-meta {
+}
+.article-meta__date {
+}
+.article-meta__authors {
+}
+.article-meta__authors::before {
+  content: "•";
+  padding-inline: 0.5ch;
+}
+.article-meta__tags {
+}
+.article-meta__categories::before {
+  content: "•";
+  padding-inline: 0.5ch;
+}
+.article-meta__categories-icon {
+  margin-right: 1ch;
+}
+
+
+.article-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.article-preview__title {
+  display: block;
+  font-size: 1.5em;
+}
+.article-preview__meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5ch;
+
+  font-size: 0.875em;
+}
+.article-preview__excerpt {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* endregion */
+
+/* region Post listings. Customization of minima's built-in .post-list */
+
+.post-list {
+  display: grid;
+  grid-template-columns: 5em 1fr;
+  grid-auto-rows: 5em;  /* The same as the icon cell width, so the icon space is square. */
+  grid-gap: 2em 2ch;
+}
+.post-list__item {
+  display: contents; /* Make the children be on the grid. */
+}
+.post-list__item-icon {
+  grid-column: 1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.post-list__item-summary {
+  grid-column: 2;
+  place-self: stretch stretch;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* endregion */
+
+/* region General button format */
+
+.button-link-row {
+  margin: 10px 0;
+}
+
+.button {
+  text-decoration: none;
+
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  /*font-family: Arial, sans-serif;*/
+  text-align: center;
+
+  /* Hover effect for interactivity */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+.button:visited {
+  text-decoration: none;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:active {
+  text-decoration: none;
+}
+.button:focus {
+  text-decoration: none;
+}
+/* endregion */
+
+/* region Specific button types (color schemes, etc) */
+
+.button--download {
+  background-color: hsl(128, 53%, 50%);
+  color: white;
+
+  text-transform: uppercase;
+  padding: 0.625em 1.25em;
+}
+.button--download:visited { /* Render same as an unvisited link */
+  background-color: hsl(128, 53%, 50%);
+  color: white;
+}
+.button--download:hover {
+  background-color: hsl(128, 53%, 42%);
+  color: white;
+}
+.button--download:active {
+  background-color: hsl(128, 53%, 32%);;
+  color: white;
+}
+.button--download:focus {
+  color: white;
+}
+
+
+.button--tag {
+  font-weight: bold;
+  background-color: #00bcff;
+  color: white;
+
+  text-transform: uppercase;
+  padding: 0.25em 1.25em;
+}
+.button--tag:visited { /* Render same as an unvisited link */
+  background-color: #00bcff;
+  color: white;
+}
+.button--tag:hover {
+  background-color: #00bcff;
+  color: white;
+}
+.button--tag:active {
+  background-color: #00bcff;
+  color: white;
+}
+.button--tag:focus {
+  color: white;
+}
+
+/* endregion */
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  column-gap: 1ch;
+}
+.tag-list .button--tag {
+  font-size: 0.75em;
+}
+
+.tag {
+  background-color: #00bcff;
+  color: white;
+  text-decoration: none;
+  font-size: 0.625em;
+  text-transform: uppercase;
+
+  padding: 0.625em 1.25em;
+  border: none;
+  border-radius: 5px;
+  display: inline-block; /* Allows setting padding and margin correctly */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  /* Hover effect for interactivity */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* region Tabbed content */
+
+.tabbed-pane {
+	overflow-x: hidden; /* so we could easily hide the radio inputs */
+	margin: 32px 0;
+	padding-bottom: 16px;
+	// border-bottom: 1px solid #ccc;
+}
+.tabbed-pane [type="radio"] {
+	/* hiding the inputs */
+	display: none;
+}
+.tabbed-pane__tabs {
+	display: flex;
+	align-items: stretch;
+	list-style: none;
+  margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+.tabbed-pane__tab > label {
+	display: block;
+	margin-bottom: -1px;
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+	background: #eee;
+	color: #666;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.tabbed-pane__tab:hover label {
+	border-top-color: #333;
+	color: #333;
+}
+.tabbed-pane__tab-content {
+	display: none;
+	color: #777;
+  padding-top: 0.75em;
+  padding-left: 1ch;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+
+  header {
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+// The number of potential tabs is fixed by the following limit.
+@for $i from 1 through 10 {
+  .tabbed-pane [type="radio"]:nth-of-type(#{$i}):checked ~ .tabbed-pane__tabs .tabbed-pane__tab:nth-of-type(#{$i}) label {
+	  border-bottom-color: #fff;
+	  border-top-color: #B721FF;
+	  background: #fff;
+	  color: #222;
+  }
+
+  .tabbed-pane [type="radio"]:nth-of-type(#{$i}):checked ~ .tabbed-pane__tab-content:nth-of-type(#{$i}) {
+	  display: block;
+  }
+}
+/* endregion */
+
+/* region Testimonials and lists thereof */
+
+// Singular testimonials
+.testimonial {
+}
+.testimonial__author::before {
+  content: "— ";
+  font-weight: normal;
+}
+.testimonial__author {
+  font-weight: bold;
+  font-style: normal;
+}
+.testimonial__role::before {
+  content: ", ";
+}
+.testimonial__role {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* endregion */
+
+/* region Sections styled as split panes with a very particular split */
+
+.split-pane {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0;
+  gap: 1em;
+  align-items: start;
+}
+.split-pane__part {
+  margin: 0;
+  flex-basis: 0;
+}
+.split-pane__part--2 {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+.split-pane__part--1 {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.split-pane__part--large {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+.split-pane__part--small {
+  margin: 0;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+/* endregion */
+
+/* region For our long lists to useful community links */
+
+.community-links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.community-links__item {
+}
+.community-links__item--dead {
+  text-decoration: line-through;
+}
+
+/* endregion */
+
+/* region For our long lists to contributors. */
+
+.contributor-list {
+  list-style-type: disc;
+}
+.contributor-list__contributor {
+}
+
+/* endregion */
