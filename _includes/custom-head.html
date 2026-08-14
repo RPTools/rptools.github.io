@@ -5,3 +5,9 @@
 <link rel="manifest" href="/favicon/site.webmanifest" />
 
 <link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+{%- if page.redirect -%}
+{%- assign url = page.redirect.url -%}
+{%- assign wait_time = page.redirect.wait_time | default: 0 -%}
+<meta http-equiv="refresh" content="{{ wait_time | escape }}; url={{ url | escape }}" />
+{%- endif -%}
