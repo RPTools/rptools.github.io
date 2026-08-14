@@ -1,0 +1,51 @@
+---
+layout: home
+title: Home
+permalink: /
+---
+
+
+<header class="home-header">
+		<h1 class="home-title">100% Community Driven</h1>
+		<h2 class="home-title">100% free to use.</h2>
+		<div class="split-pane">
+				<div class="split-pane__part split-pane__part--2">
+						<p>RPTools offers a VTT with all the functionality as well as a great application for creating your own tokens.</p>
+				</div>
+				<iframe class="split-pane__part split-pane__part--1" src="https://www.youtube.com/embed/U-iQyKN2G08?si=74yXR7zC0LblrMAq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+</header>
+
+<section class="testimonial-list post-content">
+    <header>
+        <h2 class="testimonial-list__heading">Testimonials</h2>
+    </header>
+
+		{%- for testimonial in site.data.testimonials -%}
+		<blockquote class="testimonial-list__item testimonial">
+        <p class="testimonial__content">{{ testimonial.quote | escape }}</p>
+        <footer>
+            <cite class="testimonial__citation"><span class="testimonial__author">{{ testimonial.author | escape }}</span><span class="testimonial__role">{{ testimonial.role | escape }}</span></cite>
+        </footer>
+    </blockquote>
+		{%- endfor -%}
+</section>
+
+<hr>
+
+<section class="post-content">
+		<header>
+				<h2>Be part of the community</h2>
+		</header>
+		<div class="split-pane">
+				<div class="split-pane__part split-pane__part--2">
+						<p>Not only is our VTT completely free, it also has an absolutely amazing community supporting the program.
+								We have a forum and wiki where you can find all kinds of answers but we want to invite you to be part of
+								the family. Join our ever growing Discord server and meet the helpful, friendly and supportive users and
+								developers alike. You will find more than just a community, you will find friends.</p>
+				</div>
+				<div class="split-pane__part split-pane__part--1">
+						<p><a href="{{ site.data.links.discord | escape }}" target="_blank"><img width="768" src="/assets/img/discord_wide.webp"></a></p>
+				</div>
+		</div>
+</section>
