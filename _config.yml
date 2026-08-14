@@ -1,0 +1,66 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: RPTools.net
+icon: /assets/img/logos/RPTools_Logo_512.png
+#email: ???@rptools.net
+description: >-
+  100% free, community driven Role Playing Tools.
+repository: RPTools/rptools.github.io
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://rptools.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+exclude:
+  - test.sh
+  - README.md
+  - vendor
+
+# Can't wait for the latest goodness to be released.
+remote_theme: "jekyll/minima@bf9ef98"
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+  - jekyll-paginate
+
+sass:
+  quiet_deps: true
+minima:
+  show_excerpts: true
+  nav_pages:
+    - index.html
+  social_links:
+    - { platform: discord, url: "https://discord.com/invite/dZy7HeYYVY", icon: discord }
+    - { platform: x, url: "https://x.com/rptools", icon: x-twitter }
+    - { platform: facebook, url: "https://facebook.com/RPTools", icon: facebook }
+    - { platform: reddit, url: "https://www.reddit.com/r/MapTool/", icon: reddit }
+    - { platform: github, url: "https://github.com/RPTools", icon: github }
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "page"
+      permalink: "/:basename/"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+collections_dir: collections
+collections: {}
