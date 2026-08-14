@@ -1,0 +1,9 @@
+---
+title: Authors
+---
+
+{%- for user in site.author -%}
+
+<div><a href="{{ user.url | escape }}"><i class="fa-solid fa-user"></i> {{ user.title | escape }}</a></div>
+
+{%- endfor -%}

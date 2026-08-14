@@ -1,0 +1,37 @@
+---
+layout: base
+---
+{%- assign user_posts = site.posts | where: "author", page.slug -%}
+
+<article class="post">
+  <header class="post-header">
+			<h1 class="post-title">{{ page.title | escape }}</h1>
+			<!-- TODO Include user description. -->
+			{%- if page.description -%}
+			<p>
+					{{ page.description | escape }}
+			</p>
+			{%- endif -%}
+			<p>
+					{%- if user_posts.size == 0 -%}
+					<em>No articles</em>
+					{%- else -%}
+					{{ user_posts.size | escape }} articles
+					{%- endif -%}
+			</p>
+
+  </header>
+	
+  <div class="post-content">
+			{{ content }}
+
+			{%- if user_posts.size > 0 -%}
+			<ul class="post-list">
+					{%- for post in user_posts -%}
+					{%- include listed-post.html post=post -%}
+					{%- endfor -%}
+			</ul>
+			{%- endif -%}
+  </div>
+
+</article>

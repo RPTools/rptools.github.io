@@ -66,4 +66,7 @@ defaults:
       image: true
 
 collections_dir: collections
-collections: {}
+collections:
+  author:
+    output: true
+    permalink: /:collection/:title/
