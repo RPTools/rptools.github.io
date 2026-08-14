@@ -40,6 +40,9 @@ minima:
   show_excerpts: true
   nav_pages:
     - index.html
+    - pages/community.html
+    - pages/tutorials.html
+    - pages/about-us.html
   social_links:
     - { platform: discord, url: "https://discord.com/invite/dZy7HeYYVY", icon: discord }
     - { platform: x, url: "https://x.com/rptools", icon: x-twitter }
