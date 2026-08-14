@@ -40,6 +40,7 @@ minima:
   show_excerpts: true
   nav_pages:
     - index.html
+    - pages/toolbox.html
     - pages/community.html
     - pages/tutorials.html
     - pages/about-us.html
@@ -82,3 +83,12 @@ collections:
   author:
     output: true
     permalink: /:collection/:title/
+  toolbox:
+    output: true
+    permalink: /:collection/:title/
+    order:
+      - maptool.html
+      - token-tool.html
+      - initiative-tool.md
+      - character-tool.md
+      - dice-tool.md

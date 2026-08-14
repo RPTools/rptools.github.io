@@ -1,0 +1,205 @@
+---
+layout: tool
+slug: maptool
+title: MapTool
+icon: /assets/img/logos/RPTools_Map_Logo_512.png
+summary: An online, multiuser, network based, graphical, interactive, programmable virtual tabletop.
+legacy: false
+---
+
+{% assign version = site.data.releases.maptool.version %}
+{% assign release-page = site.data.releases.maptool.release-page %}
+{% assign release-date = site.data.releases.maptool.release-date %}
+{% assign assets = site.data.releases.maptool.assets %}
+
+<section class="split-pane">
+    <div class="split-pane__part split-pane__part--1">
+				<header>
+						<h2>More than a map</h2>
+				</header>
+        <p>Do not be fooled by the name. While it does include powerful tools for the creation of detailed maps, its
+						primary role is a Virtual Table Top, replacing pen, paper, battle mats, and dice.</p>
+        <p>MapTool is a free, open source and extremely flexible VTT with all the bells and whistles. You can
+						utilize the integrated server function to connect to players wherever there’s an Internet connection.</p>
+        <p>Miss your buddy in Singapore? Not a problem. Roll up that character and then your sleeves.</p>
+    </div>
+    <div class="split-pane__part split-pane__part--1">
+        <img src="/assets/img/Bandit1.webp">
+    </div>
+</section>
+<section>
+    <div class="tabbed-pane">
+        <header>
+            <h3>Download {{ page.title | escape }} {{ version | escape }}</h3>
+            <p><a href="{{ release-page | escape }}"><img alt="Release notes for {{ page.title | escape }} {{ version | escape }}" src="https://img.shields.io/badge/github-{{ version | url_encode }}%20Release%20Notes-blue?style=for-the-badge&logo=github"></a></p>
+            <p><em>Released {{ release-date | date: "%a, %d %b %Y" | escape }}</em></p>
+        </header>
+
+        <input type="radio" id="tab-maptool-windows" name="maptool-platform" checked>
+        <input type="radio" id="tab-maptool-macos" name="maptool-platform">
+        <input type="radio" id="tab-maptool-linux" name="maptool-platform">
+
+        <ul class="tabbed-pane__tabs">
+            <li class="tabbed-pane__tab"><label for="tab-maptool-windows">Windows</label></li>
+            <li class="tabbed-pane__tab"><label for="tab-maptool-macos">macOS</label></li>
+            <li class="tabbed-pane__tab"><label for="tab-maptool-linux">Linux</label></li>
+        </ul>
+
+        <section class="tabbed-pane__tab-content">
+            <header>
+                <h4>Download for Windows</h4>
+            </header>
+
+            {% include download-button-row.html assets=assets.windows %}
+
+            <p>Windows users are encouraged to use the MSI.</p>
+            <p>Since RPTools is not a “known software publisher” by Microsoft, you will need to click through the
+								prompts to install MapTool and when starting MapTool for the first time you will prompted to allow
+								network access. See the download page for more information.</p>
+        </section>
+        <section class="tabbed-pane__tab-content">
+            <header>
+                <h4>Download for macOS</h4>
+            </header>
+
+            {% include download-button-row.html assets=assets.mac %}
+
+            <p>Mac Users are encouraged to use the PKG version of the install.</p>
+            <p>Apple won’t recognize the application as being from an “identified developer”. You will have to allow it
+								to open through System Preferences  > Security & Privacy, and even then some Ctrl-click fanciness is
+								required. See the download page for more information.</p>
+        </section>
+        <section class="tabbed-pane__tab-content">
+            <header>
+                <h4>Download for Linux</h4>
+            </header>
+
+            {% include download-button-row.html assets=assets.linux %}
+
+            <p>Use either .deb or .rpm (depending on which packager your system uses).</p>
+            <p>The deb version installs under /opt/maptool/bin as MapTool.  See the download page for more information.</p>
+        </section>
+    </div>
+</section>
+
+<hr>
+
+<section>
+    <div class="split-pane">
+        <div class="split-pane__part split-pane__part--1">
+            <img src="/assets/img/NoFees.webp">
+        </div>
+        <div class="split-pane__part split-pane__part--2">
+            <header>
+                <h2>You are in control</h2>
+            </header>
+            <p>It’s not browser-based so you have to download and install it, but because of that, it doesn’t depend on
+								a remote server. That means you’re not dependent on other servers that might charge you a subscription
+								fee or have inconvenient “maintenance windows”, you can use your own high resolution images, and you’re
+								not restricted in storage size (except for the amount of available disk space you have!).</p>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section>
+    <h2>Amazing Features</h2>
+    <ul>
+        <li>Supports advanced features like Dynamic Lighting, Vision, Fog of War and much more.</li>
+        <li>Features its own scripting language – allowing you to code and share your own creations.</li>
+        <li>It is “game system agnostic”, meaning that while MapTool has special support for some game systems, there is
+						no requirement for you to use these features.</li>
+        <li>A set of “topology” tools to enable the GM to limit the view of their players, revealing the map as they
+						explore it. Walls, pits, hills and other objects can prevent players from seeing what lies behind them.</li>
+        <li>Vision features allows darkness to be made to fall, blinding players who lack a light. Lights can be set on
+						objects or on tokens that illuminate however much of the map you define. If the GM wishes, s/he can limit
+						the view of players to what their specific token sees, adding a whole new level to the experience of
+						splitting up the party.  Woe be to the character who can’t see around the corner of a wall but steps out
+						into the view of the enemy!</li>
+        <li>Tremendous macro facility that allows you to automate just about any facet of your game. These are entirely
+						optional bits of code you write yourself or borrow from others you meet in the <a href="{{ site.data.links.forums | escape }}">forums</a> or on
+            <a href="{{ site.data.links.discord | escape }}">Discord</a>.</li>
+            <li>Support for embedded HTML. See <a href="/maptool-faq/html-within-maptool/">HTML Within Maptool</a> for
+                helpful tidbits.</li>
+        <li>On the horizon, MapTool 2.0 will see new scripting language support and a complete refresh of the UI into
+						JavaFX. Much of the macro-only functionality will move into the UI to make MapTool easier for the new user.</li>
+        <li>([Read more] about our community.)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>How to get started</h2>
+    <ul>
+        <li>Download the package for your operating system.</li>
+        <li>Download a framework from our [framework page] (optional).</li>
+        <li>Watch some [tutorials] (optional, but recommended!).</li>
+        <li>Join our <a href="{{ site.data.links.discord | escape }}">Discord</a> or our <a href="{{ site.data.links.forums | escape }}">forums</a> and get all
+            your questions answered.</li>
+       <li>Learn even more on our <a href="{{ site.data.links.wiki | escape }}">Wiki Documentation</a>.</li>
+   </ul>
+</section>
+
+<hr>
+
+<section>
+    <p>MapTool will always be free and always be supported by people that love to game. So don’t worry: fire up the
+				tool, draw a map, and call your friends. It’s game time!</p>
+</section>
+
+<hr>
+
+<section>
+    <h2>FAQ</h2>
+
+    <h3>Which version to download?</h3>
+    <p>All of the tools by the RPTools Team follow a consistent versioning scheme. There is always a stable (also known
+				as release) version available that can be used by those that have concerns as to the stability of a development
+				version.</p>
+    <p>That said, it is frequently the case that a late development build is effectively as stable as a release version.
+				It is a good idea to ask around on the forum or on Discord to determine which is the best build for you.</p>
+    <p>If you're looking for the latest nightly build, or a beta release, or other specific type of download, visit the
+				<a href="https://github.com/RPTools/maptool/wiki/Finding-the-MapTool-release-you're-looking-for...">GitHub wiki page for MapTool</a>.</p>
+
+		<h3>What can you tell me about the versions that are in development?</h3>
+		<p>Development versions are where all of the glitz and new features are added. Because of the constant additions
+				that occur in this version of the code, external file formats are likely to change, functionality may be
+				introduced in one build only to be removed in the next build, and there can be usability issues as well.
+				Anything major is normally corrected in a very short time but this can lead to head-scratching and a loss of
+				sleep for those who like to live on the edge.</p>
+
+		<h3>Will I be helping the community by using the latest version?</h3>
+		<p>Yes. You would help the community more by using the latest and greatest and report back any issues to the
+				community through our forum, blog or discord. Still, nothing’s worse than a game night ruined by a crashing
+				program. Ideally, you can recruit your players to test the new versions but use the stable versions for when it
+				counts.</p>
+		
+		<h3>Do I need to do anything before I update?</h3>
+		<p>If you are only going to keep one version of MapTool installed, it is highly recommended that you uninstall the
+				previous version and delete any files or directories left behind in the install location before installing the
+				new version.</p>
+		<p>Best practice is to keep your resource libraries, campaign files and other user content in a separate location.
+				If you have stored those files in your MapTool installation folder, ensure they are backed up or moved before
+				uninstalling and installing the new version.</p>
+
+		<h3>The downloaded installer won't run or the installation hangs, now what?</h3>
+		<p>If the installer won't run, make sure you have sufficient permissions on your computer to install software, and
+				that you have granted the installer the required permissions.</p>
+		<p>Antivirus checks should be suspended during installation.</p>
+		<p>Installation of MT can take several minutes, especially if you use the Windows .exe file format for
+				installation.</p>
+		<p>Some users may find it necessary to uninstall all previous versions of MT and reboot before installation.</p>
+		<p>If you are still unable to get your installer to run, please ask in general_support on our Discord channel.</p>
+
+		<h3>Is there a JAR file available?</h3>
+		<p>A JAR file version may be downloaded as well but is only recommended for developers or other advanced users. For
+				most users, we suggest the executable version which will install the Tools as an application you execute like
+				any other.</p>
+		<p>The latest version of MapTool requires JavaFX and Java 16. If you have sufficient development background, you may
+				be able to puzzle this out, but we are only supporting our packaged builds at this time.</p>
+		<p>You can find the download on our Github page.</p>
+
+		<h3>Where can I find older versions</h3>
+		<p>All our versions can be found on this page:</p>
+		<p><a href="https://github.com/RPTools/maptool/releases" title="MapTool Releases">https://github.com/RPTools/maptool/releases</a></p>
+</section>

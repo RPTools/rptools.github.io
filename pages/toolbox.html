@@ -1,0 +1,29 @@
+---
+title: Tools
+---
+
+{% assign active_tools = site.toolbox | where: "legacy", false %}
+{% assign legacy_tools = site.toolbox | where: "legacy", true %}
+
+<ul class="post-list">
+{%- for tool in active_tools -%}
+		{%- include listed-tool.html tool=tool -%}
+{%- endfor -%}
+</ul>
+
+<h2>Stabilized Tools</h2>
+
+<div class="alert alert--warning">
+		<p class="alert-title">Warning</p>
+		<p>These tools are <strong>no longer under active development</strong> and <strong>no longer receive support</strong>.
+				Some of their functionality has been moved into one of the active tools.</p>
+</div>
+<p>Each tool requires you to have a correctly configured Java installation. If you have Java configured correctly,
+		you should be able to double click on the downloaded JAR file to run each of the tools. However, depending on
+		your Java install, you may need to invoke the command line for your operating system to run the program.</p>
+
+<ul class="post-list">
+{%- for tool in legacy_tools -%}
+		{%- include listed-tool.html tool=tool -%}
+{%- endfor -%}
+</ul>

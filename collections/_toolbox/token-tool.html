@@ -1,0 +1,96 @@
+---
+layout: tool
+slug: token-tool
+title: TokenTool
+subtitle: A free tool for building digital avatars
+icon: /assets/img/logos/RPTools_Token_Logo_512.png
+summary: Create quick and simple consistently sized tokens for use with any digital battle mat.
+legacy: false
+assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.exe", "msi": "https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.msi"}, "mac": {"dmg": "https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.dmg", "pkg": "https://github.com/RPTools/TokenTool/releases/download/0.0.0/TokenTool-0.0.0.pkg"}, "linux": {"deb": "https://github.com/RPTools/TokenTool/releases/download/0.0.0/tokentool_0.0.0_amd64.deb", "rpm": "https://github.com/RPTools/TokenTool/releases/download/0.0.0/tokentool-0.0.0_x86_64.rpm"}}
+---
+
+{% assign version = site.data.releases.tokentool.version %}
+{% assign release-page = site.data.releases.tokentool.release-page %}
+{% assign release-date = site.data.releases.tokentool.release-date %}
+{% assign assets = site.data.releases.tokentool.assets %}
+
+<section>
+    <p>A Token creation tool to create PNG images suitable for Virtual Table Top applications.</p>
+    <p>Quick and versatile, it is the best way to create customised tokens for your game.</p>
+
+    <div class="tabbed-pane">
+        <header>
+            <h3>Download {{ page.title | escape }} {{ version | escape }}</h3>
+            <p><a href="{{ release-page | escape }}"><img alt="Release notes for {{ page.title | escape }} {{ version | escape }}" src="https://img.shields.io/badge/github-{{ version | url_encode }}%20Release%20Notes-blue?style=for-the-badge&logo=github"></a></p>
+            <p><em>Released {{ release-date | date: "%a, %d %b %Y" | escape }}</em></p>
+        </header>
+
+        <input type="radio" id="tab-tokentool-windows" name="tokentool-platform" checked>
+        <input type="radio" id="tab-tokentool-macos" name="tokentool-platform">
+        <input type="radio" id="tab-tokentool-linux" name="tokentool-platform">
+
+        <ul class="tabbed-pane__tabs">
+            <li class="tabbed-pane__tab"><label for="tab-tokentool-windows">Windows</label></li>
+            <li class="tabbed-pane__tab"><label for="tab-tokentool-macos">macOS</label></li>
+            <li class="tabbed-pane__tab"><label for="tab-tokentool-linux">Linux</label></li>
+        </ul>
+
+        <section class="tabbed-pane__tab-content">
+            {% include download-button-row.html assets=assets.windows %}
+
+            <p>Use either .MSI (recommended) or .EXE.</p>
+            <p>If you have added custom overlays, they should still be accessible when installing this version over previous versions.</p>
+            <p>We’re seeing notes from Windows users that they double-click the icon after installing and no window appears. This seems to be an antivirus issue, so check your AV if you have this problem.  See the download page for more information.</p>
+        </section>
+        <section class="tabbed-pane__tab-content">
+            {% include download-button-row.html assets=assets.mac %}
+
+            <p>Use either .PKG (recommended) or .DMG.</p>
+            <p>Apple won’t recognize the application as being from an “identified developer”. You will have to allow it to open through System Preferences  > Security & Privacy, and even then some Ctrl-click fanciness is required.  See the download page for more information.</p>
+            <p>The macOS Gatekeeper may flag the DMG file as broken. The DMG isn’t actually broken, but GateKeeper doesn’t like that it’s not signed.  See the download page for more information.</p>
+        </section>
+        <section class="tabbed-pane__tab-content">
+            {% include download-button-row.html assets=assets.linux %}
+
+            <p>Use either .deb or .rpm (depending on which packager your system uses).</p>
+            <p>The deb version installs under /opt/tokentool/bin as TokenTool.</p>
+            <p>It seems that some Linux distributions ship a native library that can’t handle some of the provided overlays.  See the download page for more information.</p>
+        </section>
+    </div>
+</section>
+
+<hr>
+
+<section>
+    <div class="split-pane">
+        <div class="split-pane__part split-pane__part--2">
+            TokenTool removes much of the tedium from creating tokens for use with MapTool or your favorite online gaming application. Just drag an image into
+            the background, select a frame, zoom and pan to suit, and drag off a finished token.  The resulting token is transparent around the edges and
+            cropped to the size you wanted.
+        </div>
+        <div class="split-pane__part split-pane__part--1">
+            <img src="/assets/img/tokentool_example_phergus_1.webp">
+        </div>
+    </div>
+</section>
+
+<section>
+<h4>Rewritten in JavaFX 10 to bring a modern and updated UI as well as a few new features!</h4>
+</section>
+
+<hr>
+
+<section>
+    <header>
+        <h5>TokenTool 2.2 features the following:</h5>
+    </header>
+    <ul>
+        <li>Now supports saving both tokens and portrait images to WebP, PNG, JPEG, GIF and TIFF image formats.</li>
+        <li>Supports PSD format for ‘overlays’ to allow for better masking by supporting ‘layers’.</li>
+        <li>Bulk PDF image extraction in the image format of your choice by page or the whole shebang.</li>
+        <li>Finer control over image size when zooming and rotating the token image.</li>
+    </ul>
+    <div>
+        <img src="/assets/img/TT22-1.webp">
+    </div>
+</section>
