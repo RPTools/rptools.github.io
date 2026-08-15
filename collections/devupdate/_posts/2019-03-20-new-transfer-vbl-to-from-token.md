@@ -9,15 +9,15 @@ slug: new-transfer-vbl-to-from-token
 
 MapTool 1.5 allows the transfer Vision Blocking Layer (VBL) to and from tokens. To access this new capability, simply edit a token and go to the VBL tab.
 
-<img class="post-example" src="/assets/img/TokenVBLColumn.webp" alt="TokenVBLColumn" width="648">
+<img class="post-example" src="/assets/img/TokenVBLColumn.webp" alt="TokenVBLColumn">
 
 There are several options on the VBL tab. You can generate VBL to cover the token. However, depending on the type of token, this can create complex VBL that will slow down vision rendering during a game.
 
-<img class="post-example" src="/assets/img/TokenVBLColumn-Generate.webp" alt="TokenVBLColumn-Generate" width="648">
+<img class="post-example" src="/assets/img/TokenVBLColumn-Generate.webp" alt="TokenVBLColumn-Generate">
 
 To create simpler VBL, you can now draw the VBL over the token on the map and transfer it to the token. You can then copy, move, or save the token and the VBL will remain. In the image below I’ve drawn an X with the VBL tools then transferred it onto the token.
 
-<img class="post-example" src="/assets/img/TokenVBLColumn-X.webp" alt="TokenVBLColumn-X" width="648">
+<img class="post-example" src="/assets/img/TokenVBLColumn-X.webp" alt="TokenVBLColumn-X">
 
 A few other notes about this panel.
 

@@ -8,7 +8,7 @@ slug: draw-explorer-merging
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float-right" src="/assets/img/draw-explorer-merge4.webp" alt="merge4" width="150" height="150">
+<img class="float float--right float--15" src="/assets/img/draw-explorer-merge4.webp" alt="merge4">
 
 With the release of Maptool 1.4.2, you will have the ability to merge different drawn elements of your map together. You can try this functionality in the [Dev/Test Build of MapTool](/2016/05/maptool-devtest-version-1-4-1-2/) now but we don’t recommend using Dev/Test for your gaming sessions unless you’re the adventurous sort. If you’re unfamiliar with the Draw Explorer, we detailed its initial functionality in a [previous post](/2016/05/new-functionality-draw-explorer/).
 

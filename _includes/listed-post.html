@@ -12,24 +12,24 @@
 				<div class="article-preview__meta article-meta">
 						<time class="article-meta__date">{{ post.date | date: date_format }}</time>
 						{%- if post.author -%}
-						<span class="article-meta__authors">
+						<div class="article-meta__authors">
 								{%- for author_slug in post.author %}
 								{%- capture author_cond -%}user.slug == '{{ author_slug }}'{%- endcapture -%}
 								{%- assign author = site.author | find_exp:"user", author_cond -%}
 								<span class="article-meta__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
 										<a href="{{ author.url }}" class="p-author h-card" itemprop="name">
-												<i class="fa-solid fa-user"></i> {{ author.title }}
+												<i class="article-meta__icon fa-solid fa-user"></i>{{ author.title }}
 										</a>
 								</span>
 								{%- if forloop.last == false %}, {% endif -%}
 								{% endfor %}
-						</span>
+						</div>
 						{%- endif -%}
 
 						{%- if post.categories.size > 0 -%}
 						<div class="article-meta__categories">
-								<i class="article-meta__categories-icon fa-regular fa-folder"></i>
-								{%- for tag in post.categories -%}
+								<i class="article-meta__icon fa-regular fa-folder"></i>
+								{% for tag in post.categories %}
 								{%- capture topic_cond -%}page.slug == '{{ tag }}'{%- endcapture -%}
 								{%- assign topic_page = site.category | find_exp:"page", topic_cond -%}
 								<a href="{{ topic_page.url | escape }}">{{ topic_page.title | escape }}</a>

@@ -9,21 +9,21 @@ slug: draw-explorer-vision-blocking-layer
 
 With the introduction of Maptool 1.5 comes a series of additions to the Draw Explorer that should speed map creation. If you draw your dungeon rooms directly in Maptool, you can now build the Vision Blocker Layer in a few simple clicks.  Imagine you had built the dungeon shown below entirely with textures (not images):
 
-<img class="post-example" src="/assets/img/map1.webp" alt="map1" width="300">
+<img class="post-example" src="/assets/img/map1.webp" alt="map1">
 
 You now want to add the vision blocking layer. So your first step is to cover the entire map with a solid vision blocking rectangle:
 
-<img class="post-example" src="/assets/img/map2.webp" alt="map2" width="300">
+<img class="post-example" src="/assets/img/map2.webp" alt="map2">
 
 Now you simply open the Draw Explorer by clicking **Window > Draw Explorer.**
 
 Then select all of the rooms, right click and select **Shape to VBL > Remove from VBL**
 
-<img class="post-example" src="/assets/img/map3.webp" alt="map3" width="300">
+<img class="post-example" src="/assets/img/map3.webp" alt="map3">
 
 Your vision layer is complete. The job is done!
 
-<img class="post-example" src="/assets/img/map4.webp" alt="map4" width="300">
+<img class="post-example" src="/assets/img/map4.webp" alt="map4">
 
 #### Path vs. Shape
 

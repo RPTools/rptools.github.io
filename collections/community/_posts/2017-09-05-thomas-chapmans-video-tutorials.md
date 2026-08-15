@@ -11,5 +11,5 @@ One of the strengths of RPTools is the community of users who take the time to m
 Please take the time to visit Thomas’s YouTube Channel: [Music, Education, Mayhem, and Gaming](https://www.youtube.com/channel/UCyePy8n0n2ZRlA_3K21NPCA) to let him know his work is appreciated.
 
 <div class="video-embed">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9rVo2Yj-xcw?si=p4uoN2lUC-kM3QPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9rVo2Yj-xcw?si=p4uoN2lUC-kM3QPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>

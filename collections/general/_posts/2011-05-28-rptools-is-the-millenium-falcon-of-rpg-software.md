@@ -6,22 +6,20 @@ author: admin
 icon: /assets/img/Bandit1.webp
 slug: welcome
 ---
+<figure class="float float--right float--30">
+  <img src="/assets/img/Bandit1.webp" alt="RPTools Game in Progress">
+  <figcaption>MapTool Light and Sight</figcaption>
+</figure>
 
-<div class="split-pane">
-    <div class="split-pane__part split-pane__part--large">
-        <p markdown="1">RPTools is a brand of open-source programs designed to enhance traditional pen-and-paper role-playing games. You use them for
-        face-to-face or Internet role-playing in real time – even if your players are on the other side of the world.  [MapTool](/toolbox/maptool/), our
-        flagship product, is a free, highly-customizable virtual tabletop usable for a wide variety of gaming systems, from fantasy to sci-fi; from tabletop
-        miniatures games to purely spoken-word games. [TokenTool](/toolbox/token-tool) is nearly as popular and can be used for a variety of VTTs or custom maps
-        using simple drag-and-drop images from the web or your computer system.</p>
-        <p markdown="1"><strong>Note: For help with MapTool and other RPTools products, please see the [RPTools Forums]({{ site.data.links.forums | escape }})
-        or live chat on [Discord]({{ site.data.links.discord | escape }}). Use the navigation at the top of this page to Download or see our
-        [DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=1002608).</strong></p>
-    </div>
-    <div class="split-pane__part split-pane__part--small">
-        {%- include img-caption.html src=page.icon alt="RPTools Game in Progress" caption="MapTool Light and Sight" -%}
-    </div>
-</div>
+RPTools is a brand of open-source programs designed to enhance traditional pen-and-paper role-playing games. You use them for
+face-to-face or Internet role-playing in real time – even if your players are on the other side of the world.  [MapTool](/toolbox/maptool/), our
+flagship product, is a free, highly-customizable virtual tabletop usable for a wide variety of gaming systems, from fantasy to sci-fi; from tabletop
+miniatures games to purely spoken-word games. [TokenTool](/toolbox/token-tool) is nearly as popular and can be used for a variety of VTTs or custom maps
+using simple drag-and-drop images from the web or your computer system.
+
+**Note: For help with MapTool and other RPTools products, please see the [RPTools Forums]({{ site.data.links.forums | escape }})
+or live chat on [Discord]({{ site.data.links.discord | escape }}). Use the navigation at the top of this page to Download or see our
+[DriveThruRPG publisher’s page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=1002608).**
 
 The [community forums]({{ site.data.links.forums | escape }}) are a thriving, active source of rapid responses to any questions you may have about RPTools.
 Other help resources include our [Discord]({{ site.data.links.discord | escape }}) server for live chat, [Facebook]({{ site.data.links.facebook | escape }}),

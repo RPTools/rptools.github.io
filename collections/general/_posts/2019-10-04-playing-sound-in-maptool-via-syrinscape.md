@@ -20,7 +20,7 @@ The call returns a large JSON array detailing the contents of the RPTools reposi
 The gist of all this is that MapTool, via macros, can communicate with other online systems. You can leverage this to bring sounds into your campaign via [Syrinscape](https://syrinscape.com/) as demonstrated in the video below.
 
 <div class="video-embed">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2Il246Si4xU?si=CrIbYABGHzaJQmqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/2Il246Si4xU?si=CrIbYABGHzaJQmqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 MapTool is able to utilize Syrinscape’s REST API via a macro. You simply copy the URL and auth token by clicking Show Remote Control Links from the Syrinscape Master interface. Once you have the URL, you construct a macro call to Syrinscape with something like the following:

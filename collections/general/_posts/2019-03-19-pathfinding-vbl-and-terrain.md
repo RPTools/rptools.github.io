@@ -9,21 +9,21 @@ slug: pathfinding-vbl-and-terrain
 
 New in version 1.5: Pathfinding.
 
-<img class="float-left" src="/assets/img/AI.webp" alt="AI" width="111">
+<img class="float float--left float--30" src="/assets/img/AI.webp" alt="AI">
 
 When activated via the new ‘AI’ toggle button in MapTool version 1.5, tokens will find the shortest path to its destination as you drag them on the token or hidden layers. The movement takes into account VBL and the new terrain modifiers as well. This means your tokens will no longer walk thru VBL.
 
 To set the terrain modifier of a token, open the Edit Panel by double clicking the token or accessing it via the right-click menu. Navigate to the Config tab as shown below, and set the modifier. You can also set the token opacity from here.
 
-<img class="post-example" src="/assets/img/Terrain-and-Transparency.webp" alt="Terrain and Transparency" width="648">
+<img class="post-example" src="/assets/img/Terrain-and-Transparency.webp" alt="Terrain and Transparency">
 
 As you learned in a previous post, you can now remove VBL covering drawings. This is how I quickly generated the image below. The staircase stamp has a terrain value of 2 as do the other steps in the horizontal corridor. There is also VBL on the stamped steps as well to make the PCs navigate them as they should.
 
-<img class="post-example" src="/assets/img/VBL.webp" alt="VBL" width="818">
+<img class="post-example" src="/assets/img/VBL.webp" alt="VBL">
 
 With the movement AI enabled, the PC can be dragged anywhere but should go around VBL and suffer appropriate movement penalties when passing over tokens with a Movement Modifier.
 
-<img class="post-example" src="/assets/img/MovementMods.webp" alt="MovementMods.webp" width="694">
+<img class="post-example" src="/assets/img/MovementMods.webp" alt="MovementMods.webp">
 
 There are a few limitations to the new movement AI, however.
 

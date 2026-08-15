@@ -21,7 +21,7 @@ The spacebar in MapTool has several features that GMs find useful during games.
 
 **Ctl+Spacebar** in the new **Macro Editor** to perform code completion. You can type a partial function name, hit ctl+spacebar, and be presented with a list of functions matching the first letters with a brief description of what the macro function does. It will also give you the parameter list for the macro. If you don’t have anything typed, you’ll be presented with the full function list.
 
-<img class="post-example" src="/assets/img/CodeCompletion.png" alt="CodeCompletion" width="950">
+<img class="post-example" src="/assets/img/CodeCompletion.png" alt="CodeCompletion">
 
 Note that this is a work in progress and not all the functions are yet fully documented.
 

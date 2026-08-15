@@ -8,7 +8,7 @@ slug: crowdin-for-maptool-internationalization
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float-left" src="/assets/img/logos/crowdin-dark-symbol.webp" alt="crowdin-dark-symbol" width="123">
+<img class="float float--left float--15" src="/assets/img/logos/crowdin-dark-symbol.webp" alt="crowdin-dark-symbol">
 
 RPTools products are used worldwide and support 11 languages as of this writing. We’ve always relied on volunteers to provide translations for the menus, tooltips, and labels in MapTool and TokenTool. We’ve now made it easier to contribute by leveraging [crowdin](https://crowdin.com/), a third-party translation site.
 

@@ -23,7 +23,7 @@ Please see the voluminous retrospective below for all that went into 1.4.1
 ### Build 1.4.1.6
 New Features
 
-<img class="float-right" src="/assets/img/NewTokenVBL.webp" alt="NewTokenVBL" width="260">
+<img class="float float--right float--30" src="/assets/img/NewTokenVBL.webp" alt="NewTokenVBL">
 
 - New tab on Edit Token Dialog to show Token VBL which allows: (Jamz)
   - Auto Generation of VBL based on non-transparent/translucent image pixels
@@ -70,7 +70,7 @@ Build/Code Related
 
 ### Build 1.4.1.3
 
-<img class="float-right" src="/assets/img/draw-explorer.webp" alt="Draw Explorer" width="300">
+<img class="float float--right float--30" src="/assets/img/draw-explorer.webp" alt="Draw Explorer">
 
 New Features
 
@@ -102,7 +102,7 @@ New Features
   - SplashScreen class updated to support transparent background images and new coords for version #
   - New command line options for MapTool, debug, version, monitor, fullscreen, width, height, xpos, ypos. use -w=500 or -width=500 for instance to set MT frame width to 500. -fullscreen has no param.New Deployment Option: jWrapper (Jamz)
 
-<img class="float-right" src="/assets/img/ZoomImageExplorer.webp" alt="ZoomImageExplorer" width="130">
+<img class="float float--right float--30" src="/assets/img/ZoomImageExplorer.webp" alt="ZoomImageExplorer">
 - Other (Jamz)
   - Tokens now save a “large” thumbnail for use with larger preview thumbs. This saves a small thumbnail for backward compatibility with older MT versions.
   - Token “Path” improvements, fixes issue when dragging nonSnapToGrid with snapToGrid tokens together.

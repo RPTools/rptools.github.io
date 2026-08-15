@@ -8,7 +8,7 @@ slug: maptool-devtest-version-1-4-1-2
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float-right" src="/assets/img/Apocalipstix03.webp" alt="BlowedUp">
+<img class="float float--right float--30" src="/assets/img/Apocalipstix03.webp" alt="BlowedUp">
 
 Warning: This Build Could Blow Up!
 

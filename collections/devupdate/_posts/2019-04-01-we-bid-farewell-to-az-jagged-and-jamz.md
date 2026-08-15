@@ -8,7 +8,7 @@ slug: we-bid-farewell-to-az-jagged-and-jamz
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float-left" src="/assets/img/Goodbye.webp" alt="Goodbye" width="251">
+<img class="float float--left float--30" src="/assets/img/Goodbye.webp" alt="Goodbye">
 
 It is with a heavy heart that we inform our beloved community that two of our most prolific contributors are moving on to their next adventure.
 

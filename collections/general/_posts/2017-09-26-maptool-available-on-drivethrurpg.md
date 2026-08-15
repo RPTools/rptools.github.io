@@ -8,8 +8,8 @@ slug: maptool-available-on-drivethrurpg
 excerpt_separator: "<!--more-->"
 ---
 
-<a href="https://www.drivethrurpg.com/browse.php?affiliate_id=1002608" class="float-right">
-    <img src="/assets/img/dtrpg-affiliate-banner.png" alt="affiliate banner" width="160" height="600">
+<a href="https://www.drivethrurpg.com/browse.php?affiliate_id=1002608" class="float float--right float--30">
+    <img src="/assets/img/dtrpg-affiliate-banner.png" alt="affiliate banner">
 </a>
 
 We’re experimenting with a new distribution method by allowing users the ability to download MapTool from [DriveThruRPG](https://www.drivethrurpg.com/index.php?affiliate_id=1002608) for free with an optional donation. This is in addition to our traditional [Download Page](/toolbox/) – not a replacement for it. Opening the DriveThruRPG channel does a few things for us.
