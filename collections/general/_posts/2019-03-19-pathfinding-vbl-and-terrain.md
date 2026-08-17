@@ -9,8 +9,6 @@ slug: pathfinding-vbl-and-terrain
 
 New in version 1.5: Pathfinding.
 
-<img class="float float--left float--30" src="/assets/img/AI.webp" alt="AI">
-
 When activated via the new ‘AI’ toggle button in MapTool version 1.5, tokens will find the shortest path to its destination as you drag them on the token or hidden layers. The movement takes into account VBL and the new terrain modifiers as well. This means your tokens will no longer walk thru VBL.
 
 To set the terrain modifier of a token, open the Edit Panel by double clicking the token or accessing it via the right-click menu. Navigate to the Config tab as shown below, and set the modifier. You can also set the token opacity from here.
