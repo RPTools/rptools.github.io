@@ -11,23 +11,28 @@ on:
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "get-latest-tokentool"
+  group: "find-release"
   cancel-in-progress: false
 
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changes_detected: ${{ steps.commit.outputs.changes_detected }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7
       - name: Retrieve TokenTool versions
         uses: octokit/request-action@v3.x
-        id: release
+        id: find-release
         with:
           route: GET /repos/{owner}/{repo}/releases/latest
           owner: RPTools
@@ -35,8 +40,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Write release asset links
+        id: write-release
         env:
-          RELEASE_JSON: ${{ steps.release.outputs.data }}
+          RELEASE_JSON: ${{ steps.find-release.outputs.data }}
         run: |
           release_organizer=$(cat <<'EOF'
           {
@@ -63,7 +69,14 @@ jobs:
           echo "$RELEASE_JSON" | jq "${release_organizer}" > _data/releases/tokentool.yml
 
           cat _data/releases/tokentool.yml
+
+          printf '%s=%s\n' 'version' $(cat '_data/releases/tokentool.yml' | jq -r '.version') >> "$GITHUB_OUTPUT"
       - name: Commit and Push changes
+        id: commit
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "Update TokenTool version"
+          commit_message: "Update TokenTool to ${{ steps.write-release.outputs.version }}"
+  deploy-pages:
+    needs: build
+    if: needs.build.outputs.changes_detected == 'true'
+    uses: ./.github/workflows/jekyll-gh-pages.yml
