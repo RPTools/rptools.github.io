@@ -39,8 +39,9 @@ You can also have the VBL fully encompass the entire image (VBL Sensitivity 0 se
 
 The final effect allows for this functionality.
 
-<!-- Video file no longer exists -->
-<div class="alert alert--caution">doorVBL-demonstration.mp4 could not be found</div>
+<video class="post-example" controls>
+    <source src="/assets/video/doorVBL-demonstration.mp4" type="video/mp4" />
+</video>
 
 This new feature, combined with the new Draw Explorer, makes custom maps in MT much easier to manage and create. Token VBL reduces map creation time by automatically doing what used to be a manual effort for vision blocking objects. It also speeds up games by removing the need for VBL manipulation during the game.
 
