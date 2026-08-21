@@ -9,17 +9,33 @@ slug: power-of-the-spacebar
 
 The spacebar in MapTool has several features that GMs find useful during games.
 
+<div markdown="1" class="clear-both">
+<img class="float float--left float--5" src="/assets/img/GMCenterZoom.webp">
 **New in MapTool 1.5**: If you are the GM, **Ctl+Shift+Spacebar** centers your players to your current map. The clients return to their original positions and zoom percentage once the GM releases the spacebar.
+</div>
 
+<div markdown="1" class="clear-both">
+<img class="float float--left float--5" src="/assets/img/pointer-1.webp">
 **Spacebar** changes the mouse cursor to a blue arrow visible on all clients. It helps you point out things on the map. Any player can use the blue arrow functionality.
+</div>
 
+<div markdown="1" class="clear-both">
+<img class="float float--left float--5" src="/assets/img/speech.webp">
 **Ctl+Spacebar** to turn the mouse cursor into a speech bubble. You might use this to indicate In-Character speech. The name associated with the connection appears in the bubble.
+</div>
 
+<div markdown="1" class="clear-both">
+<img class="float float--left float--5" src="/assets/img/thought.webp">
 **Shift+Spacebar** turns the cursor into a thought bubble. You might use this to indicate Out-Of-Character speech. This is a test to see how far this thing will go to wrap the text over and over again.
+</div>
 
+<div markdown="1" class="clear-both">
 **Alt+Spacebar** brings up the system window dialog which changes based on the operating system being used.
+</div>
 
+<div markdown="1" class="clear-both">
 **Ctl+Spacebar** in the new **Macro Editor** to perform code completion. You can type a partial function name, hit ctl+spacebar, and be presented with a list of functions matching the first letters with a brief description of what the macro function does. It will also give you the parameter list for the macro. If you don’t have anything typed, you’ll be presented with the full function list.
+</div>
 
 <img class="post-example" src="/assets/img/CodeCompletion.png" alt="CodeCompletion">
 
