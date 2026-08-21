@@ -353,6 +353,11 @@ figure figcaption {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.article-preview__excerpt.article-preview__excerpt--wrap {
+  overflow: initial;
+  white-space: initial;
+  text-overflow: initial;
+}
 
 /* endregion */
 
@@ -360,7 +365,7 @@ figure figcaption {
 
 .post-list {
   display: grid;
-  grid-template-columns: $post-icon-size 1fr;
+  grid-template-columns: $post-icon-size 1fr auto;
   grid-auto-rows: minmax($post-icon-size, auto);  /* The same as the icon cell width, so the icon space is square. */
   grid-gap: 2em 2ch;
 }
@@ -381,6 +386,9 @@ figure figcaption {
   place-self: stretch stretch;
   min-width: 0;
   min-height: 0;
+}
+.post-list__item-actions {
+  grid-column: 3;
 }
 
 /* endregion */

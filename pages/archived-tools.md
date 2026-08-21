@@ -11,6 +11,6 @@ the program.
 
 <ul class="post-list">
     {%- for tool in legacy_tools -%}
-    {%- include listed-tool.html tool=tool -%}
+    {%- include listed-tool.html tool=tool show-download-button=true -%}
     {%- endfor -%}
 </ul>

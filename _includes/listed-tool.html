@@ -1,17 +1,24 @@
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <li class="post-list__item">
-		{%- if tool.icon -%}
+		{%- if include.tool.icon -%}
 		<div class="post-list__item-icon">
-				<img src="{{ tool.icon | escape }}">
+				<img src="{{ include.tool.icon | escape }}">
 		</div>
 		{%- endif -%}
 		<div class="post-list__item-summary article-preview">
 				<div class="article-preview__title">
-						<a href="{{ tool.url | relative_url }}">{{ tool.title | escape }}</a>
+						<a href="{{ include.tool.url | relative_url }}">{{ include.tool.title | escape }}</a>
 				</div>
 
 				{%- if site.minima.show_excerpts -%}
-				<div class="article-preview__excerpt">{{ tool.summary | strip_html }}</div>
+				<div class="article-preview__excerpt article-preview__excerpt--wrap">{{ include.tool.summary | strip_html }}</div>
 				{%- endif -%}
 		</div>
+
+
+		{%- if include.show-download-button -%}
+		<div class="post-list__item-actions">
+				{% include download-button.html type=include.tool.download-type text="Download" url=include.tool.download-url %}
+		</div>
+		{%- endif -%}
 </li>
