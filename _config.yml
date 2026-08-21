@@ -23,9 +23,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://rptools.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 exclude:
-  - test.sh
+  - cli
   - README.md
-  - vendor
 
 # Can't wait for the latest goodness to be released.
 remote_theme: "jekyll/minima@bf9ef98"
