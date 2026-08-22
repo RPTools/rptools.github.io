@@ -37,7 +37,7 @@ Select ‘Devin Knight’s Starfinder Characters to install them in your resourc
 
 We’ve included the Low-Resolution versions as part of this post so you can use them in TokenTool. You can find the High-Resolution by clicking on the icon below.
 
-<img class="post-example" src="/assets/img/ZipIcon.webp">
+<a href="/404.html"><img class="post-example" src="/assets/img/ZipIcon.webp"></a>
 
 This Set of Character Tokens uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo’s Community Use Policy. We are expressly prohibited from charging you to use or access this content.
 
