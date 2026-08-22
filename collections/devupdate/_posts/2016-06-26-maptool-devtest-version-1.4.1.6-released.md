@@ -10,7 +10,7 @@ excerpt_separator: "<!--more-->"
 
 <img class="post-example" src="/assets/img/LauncherWindow-1.4.1.6.webp" alt="LauncherWindow">
 
-The last (hopefully) Dev/Test version in the 1.4.1 series is now available for download from <http://maptool.craigs-stuff.net/test-builds/>. The 1.4.1 series saw a large number of major changes which will now be rolled into the forthcoming 1.4.2 production release. We’ll only release a 1.4.1.7 if more testing is required.
+The last (hopefully) Dev/Test version in the 1.4.1 series is now available for download from <https://maptool.craigs-stuff.net/test-builds/>. The 1.4.1 series saw a large number of major changes which will now be rolled into the forthcoming 1.4.2 production release. We’ll only release a 1.4.1.7 if more testing is required.
 
 <!--more-->
 

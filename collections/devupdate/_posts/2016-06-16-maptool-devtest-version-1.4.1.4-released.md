@@ -37,4 +37,4 @@ Build/Code Related
 - DrawableGroupConverter class is unused at this time but added as an example on how to do custom XStream conversions for a class.
 - Updated X-Stream to version 1.4.9 to match Rplib
 
-You can download the latest Dev/Test build from [HERE](http://maptool.craigs-stuff.net/test-builds/). Please provide feedback on the [1.4.1.x Dev/Test Announcements]({{ site.data.links.forums | escape }}/viewtopic.php?f=1&t=26693) page.
+You can download the latest Dev/Test build from [HERE](https://maptool.craigs-stuff.net/test-builds/). Please provide feedback on the [1.4.1.x Dev/Test Announcements]({{ site.data.links.forums | escape }}/viewtopic.php?f=1&t=26693) page.
