@@ -49,11 +49,11 @@ minima:
     - pages/tutorials.html
     - pages/about-us.html
   social_links:
-    - { platform: discord, url: "https://discord.com/invite/dZy7HeYYVY", icon: discord }
-    - { platform: x, url: "https://x.com/rptools", icon: x-twitter }
-    - { platform: facebook, url: "https://facebook.com/RPTools", icon: facebook }
-    - { platform: reddit, url: "https://www.reddit.com/r/MapTool/", icon: reddit }
-    - { platform: github, url: "https://github.com/RPTools", icon: github }
+    - { platform: discord, url: "https://discord.com/invite/dZy7HeYYVY", icon: discord, title: Discord }
+    - { platform: x, url: "https://x.com/rptools", icon: x-twitter, title: X }
+    - { platform: facebook, url: "https://facebook.com/RPTools", icon: facebook, title: Facebook }
+    - { platform: reddit, url: "https://www.reddit.com/r/MapTool/", icon: reddit, title: Reddit }
+    - { platform: github, url: "https://github.com/RPTools", icon: github, title: GitHub }
 
 # Build settings
 markdown: kramdown
