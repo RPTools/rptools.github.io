@@ -36,7 +36,7 @@ I started gaming with friends back in the 80s, although we played a lot of diffe
 ### What games are you playing now?
 
 Nothing for about 8 months now, it seems work commitments managed a highly coordinated attack against our group. Before that, we were mostly playing
-[Call of Cthulhu](https://rpg.drivethrustuff.com/product_info.php?products_id=632).
+[Call of Cthulhu](https://www.drivethrurpg.com/en/product/260810/call-of-cthulhu-starter-set).
 
 ### What’s your fondest gaming memory?
 
