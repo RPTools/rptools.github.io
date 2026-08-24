@@ -11,7 +11,7 @@ This is part two of a 2011 interview done at the end of MapTool 1.3 development.
 
 Other parts of the plan have/will be part of the 1.5 series. MapTool 2.0 is where we currently plan to implement the new User Interface in Java FX.
 
-The article originally appeared on the Tales of the Savage Troll bog. You can read Part 1 [here](/2019/03/28/planned-changes-for-maptool-1.4-pt1.html).
+The article originally appeared on the Tales of the Savage Troll bog. You can read Part 1 [here](/2019/03/blast-from-the-past-planned-changes-for-maptool-1-4-pt1/).
 
 ***
 
