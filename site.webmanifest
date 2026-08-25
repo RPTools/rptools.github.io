@@ -13,13 +13,13 @@
   ],
   "icons": [
     {
-      "src": "/favicon/web-app-manifest-192x192.png",
-      "sizes": "192x192",
+      "src": "/pwa/icon-512x512-maskable.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
     },
     {
-      "src": "/favicon/web-app-manifest-512x512.png",
+      "src": "/pwa/icon-512x512-any.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
