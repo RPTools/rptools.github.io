@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 paginate: 10
 paginate_path: "/dev-blog/page/:num/"
@@ -59,6 +60,10 @@ minima:
 markdown: kramdown
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/img/logos/RPTools_Logo_512.png"
   - scope:
       path: "pages"
       type: "pages"
