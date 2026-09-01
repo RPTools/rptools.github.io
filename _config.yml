@@ -34,6 +34,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-archives
 
 paginate: 10
 paginate_path: "/dev-blog/page/:num/"
@@ -106,3 +107,14 @@ collections:
       - initiative-tool.md
       - character-tool.md
       - dice-tool.md
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+  layout: archive  # _layouts/archive.html
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'

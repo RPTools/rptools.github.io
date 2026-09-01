@@ -1,0 +1,39 @@
+---
+layout: base
+---
+
+<article class="post">
+    <header class="post-header">
+        {%- case page.type -%}
+        {% when "year" %}
+        {%- assign date_format = "%Y" -%}
+        {% when "month" %}
+        {%- assign date_format = "%B %Y" -%}
+        {% else %}
+        {%- assign date_format = "%B %-d, %Y" -%}
+        {%- endcase -%}
+                
+      <h1 class="post-title">Posts from {{ page.date | date: date_format | escape }}</h1>
+      <p>
+          {%- if page.posts.size == 0 -%}
+          <em>No posts</em>
+          {%- else -%}
+          {{ page.posts.size | escape }} articles
+          {%- endif -%}
+      </p>
+
+  </header>
+
+  <div class="post-content">
+      {{ content }}
+
+      {%- if page.posts.size > 0 -%}
+      <ul class="post-list">
+          {%- for post in page.posts -%}
+          {%- include listed-post.html post=post -%}
+          {%- endfor -%}
+      </ul>
+      {%- endif -%}
+  </div>
+
+</article>
