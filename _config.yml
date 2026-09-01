@@ -83,7 +83,7 @@ collections:
     permalink: /:year/:month/:title/
   tag:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:slug/
   category:
     output: true
     permalink: /:collection/:path/
@@ -95,10 +95,11 @@ collections:
       - release.html
   author:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:slug/
+    sort_by: title
   toolbox:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:slug/
     order:
       - maptool.html
       - token-tool.html
