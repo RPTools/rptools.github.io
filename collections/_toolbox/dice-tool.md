@@ -3,9 +3,10 @@ layout: tool
 slug: dice-tool
 title: DiceTool
 icon: /assets/img/logos/RPTools_Dice_Logo_403.png
-version: 1.0.b34
-download-type: zip
-download-url: /assets/downloads/dicetool-1.0.b34.zip
+asset:
+    type: zip
+    url: /assets/downloads/dicetool-1.0.b34.zip
+    version: 1.0.b34
 summary: A general-purpose dice rolling application with programmable buttons and extensive customization.
 legacy: true
 ---

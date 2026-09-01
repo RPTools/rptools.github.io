@@ -3,9 +3,10 @@ layout: tool
 slug: character-tool
 title: CharacterTool
 icon: /assets/img/logos/RPTools_Char_Logo_512.png
-version: 1.0.b15
-download-type: zip
-download-url: /assets/downloads/chartool-1.0.b15.zip
+asset:
+    type: zip
+    url: /assets/downloads/chartool-1.0.b15.zip
+    version: 1.0.b15
 summary: A configurable tool for managing the number-crunching of building and maintaining player characters.
 legacy: true
 assets: null

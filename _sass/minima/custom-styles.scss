@@ -392,6 +392,8 @@ figure figcaption {
 }
 .post-list__item-actions {
   grid-column: 3;
+  align-self: center;
+  justify-self: stretch;
 }
 
 /* endregion */

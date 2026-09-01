@@ -1,7 +1,7 @@
 <div class="button-link-row">
-{%- for asset in include.assets -%}
-{%- assign download_button_type = asset[0] -%}
-{%- assign download_button_url = asset[1] -%}
-{%- include download-button.html type=download_button_type url=download_button_url text=download_button_type -%}
-{%- endfor -%}
+		{% for asset in include.assets -%}
+		{%- assign download_button_type = asset[0] -%}
+		{%- assign download_button_url = asset[1] -%}
+		<a class="button button--download" title="Download the .{{ download_button_type }} file" href="{{ download_button_url }}"><i class="fa-solid fa-download"></i> {{ download_button_type }}</a>
+		{% endfor -%}
 </div>

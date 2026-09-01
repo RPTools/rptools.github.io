@@ -1,4 +1,3 @@
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <li class="post-list__item">
 		{%- if include.tool.icon -%}
 		<div class="post-list__item-icon">
@@ -17,8 +16,6 @@
 
 
 		{%- if include.show-download-button -%}
-		<div class="post-list__item-actions">
-				{% include download-button.html type=include.tool.download-type text="Download" url=include.tool.download-url %}
-		</div>
+		<a class="post-list__item-actions button button--download" title="Download {{ include.tool.title }}" href="{{ include.tool.asset.url }}"><i class="fa-solid fa-download"></i> Download</a>
 		{%- endif -%}
 </li>

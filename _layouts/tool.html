@@ -22,9 +22,9 @@ layout: base
 			<p><strong>{{ page.title | escape }} is no longer under active development.</strong></p>
 			{%- endif -%}
 
-			{%- if page.legacy -%}
+			{%- if page.asset -%}
 			<div>
-					<p>{% include download-button.html type=page.download-type text="Download" url=page.download-url %}</p>
+					<a class="button button--download" title="Download the .{{ page.asset.type }} file" href="{{ page.asset.url }}"><i class="fa-solid fa-download"></i> {{ page.asset.version | prepend: "Download " }}</a>
 			</div>
 			{%- endif -%}
   </div>

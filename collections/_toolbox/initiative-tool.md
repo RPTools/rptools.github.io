@@ -3,9 +3,10 @@ layout: tool
 slug: initiative-tool
 title: InitiativeTool
 icon: /assets/img/logos/RPTools_Init_Logo_512.png
-version: 1.1.b9
-download-type: zip
-download-url: /assets/downloads/initiativetool-1.1.b9.zip
+asset:
+    type: zip
+    url: /assets/downloads/initiativetool-1.1.b9.zip
+    version: 1.1.b9
 summary: Keeps track of the flow of encounters. Requires Java 5+.
 legacy: true
 ---
