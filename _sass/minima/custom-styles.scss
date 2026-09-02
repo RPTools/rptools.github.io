@@ -20,10 +20,6 @@ html {
 }
 
 .home {
-  margin-bottom: $spacing-unit;
-  padding-bottom: 18px;
-  border-bottom: 1px solid $border-color-01;
-
   h1 {
     margin-bottom: 10px;
     @include relative-font-size(2.625);
