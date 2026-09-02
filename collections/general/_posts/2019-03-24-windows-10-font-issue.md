@@ -35,3 +35,6 @@ Once you save the settings and restart MapTool the fonts should be better behave
 
 
 Special thanks to @phergus and community member Drew Sibbing for helping us track down and solve the issue.
+
+
+{% include md-links.md %}

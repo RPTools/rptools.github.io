@@ -50,3 +50,6 @@ A JAR file version may be downloaded as well but is only recommended for develop
 Mac Users are encouraged to use the PKG version of the install. Windows users are encouraged to use the MSI.
 
 If you need interactive help, please join our [Discord Server]({{ site.data.links.discord | escape }}). Or visit our [wiki]({{ site.data.links.wiki | escape }}) for complete walk-throughs of how to use the tool. Our *Community* page has more links; see the toolbar at the top of the page.
+
+
+{% include md-links.md %}

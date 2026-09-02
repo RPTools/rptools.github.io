@@ -32,3 +32,6 @@ If you need interactive help, please join our [Discord Server]({{ site.data.link
 ## TokenTool Latest Release
 
 Download [TokenTool (Latest)](https://github.com/RPTools/tokentool/releases/latest) from GitHub. View the **ChangeLog** for this release by visiting the link.
+
+
+{% include md-links.md %}

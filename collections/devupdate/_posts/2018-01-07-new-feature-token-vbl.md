@@ -45,4 +45,8 @@ The final effect allows for this functionality.
 
 This new feature, combined with the new Draw Explorer, makes custom maps in MT much easier to manage and create. Token VBL reduces map creation time by automatically doing what used to be a manual effort for vision blocking objects. It also speeds up games by removing the need for VBL manipulation during the game.
 
-Token VBL is available in MapTool 1.4.1.8 forwards which is available on our DTRPG [Publisher’s Page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=1002608). or from the RPTools [Downloads page](/toolbox/).
+Token VBL is available in MapTool 1.4.1.8 forwards which is available on our DTRPG [Publisher’s Page][drivethrurpg] or
+from the RPTools [Downloads page][maptool-toolbox].
+
+
+{% include md-links.md %}

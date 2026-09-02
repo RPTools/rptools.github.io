@@ -6,10 +6,16 @@ author: bard
 slug: new-video-tutorials
 ---
 
-One of the strengths of MapTool is its community. Case in point, Thomas Chapman who took the time to create a series of [MapTool tutorials](https://www.youtube.com/watch?v=9rVo2Yj-xcw&list=PLD4i-ngGs9thEXoHaxzRqD0b3zWcmpAOn).
+One of the strengths of MapTool is its community. Case in point, Thomas Chapman who took the time to create a series of
+[MapTool tutorials][tutorials].
     
 Thanks, Thomas. We salute you.
 
 <div class="video-embed">
 <iframe src="https://www.youtube.com/embed/9rVo2Yj-xcw?si=uRhP6cMN5hW3SZ1B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+
+{% include md-links.md %}
+
+[tutorials]: https://www.youtube.com/watch?v=9rVo2Yj-xcw&list=PLD4i-ngGs9thEXoHaxzRqD0b3zWcmpAOn

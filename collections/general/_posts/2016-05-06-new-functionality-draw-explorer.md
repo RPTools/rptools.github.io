@@ -70,3 +70,6 @@ Other Links:
 - [Getting Started with MapTool]({{ site.data.links.wiki | escape }}/index.php/Introduction_to_Mapping)
 - [Feature Request Thread for Draw Explorer]({{ site.data.links.forums | escape }}/viewtopic.php?f=86&t=26382)
 - MapTool Wiki entry for Draw Explorer (coming soon™)
+
+
+{% include md-links.md %}

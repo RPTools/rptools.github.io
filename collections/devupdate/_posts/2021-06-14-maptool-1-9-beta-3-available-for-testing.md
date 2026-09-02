@@ -7,7 +7,9 @@ image: /assets/img/DevTestBuild.webp
 slug: maptool-1-9-beta-3-available-for-testing
 ---
 
-We have a new Beta build ready for you to [download](https://github.com/RPTools/maptool/releases/tag/1.9.0-beta.3) and test. As a reminder, this isn’t quite ready for game night but we’d appreciate you running your favorite framework through the build’s functionality and reporting back any issues to either the [forums]({{ site.data.links.forums | escape }}) or [Discord]({{ site.data.links.discord | escape }}).
+We have a new Beta build ready for you to [download][release] and test. As a reminder, this isn’t quite ready for game
+night but we’d appreciate you running your favorite framework through the build’s functionality and reporting back any
+issues to either the [forums][forums] or [Discord][discord].
 
 Highlights of the changes include:
 - Maps now have a Display Name (Players) and a True Name (GM).
@@ -20,4 +22,11 @@ Highlights of the changes include:
 - More bug fixes.
 - More localization for the UI.
 
-You can find a full list of new features and changes in the [Beta 3 Changelog](https://github.com/RPTools/maptool/blob/1.9.0-beta.3/CHANGE_LOG.md).
+You can find a full list of new features and changes in the [Beta 3 Changelog][changelog].
+
+
+{% include md-links.md %}
+
+[announcement-forums]: {{ site.data.links.forums | escape }}/viewtopic.php?f=1&t=29314
+[release]: https://github.com/RPTools/maptool/releases/tag/1.9.0-beta.3
+[changelog]: https://github.com/RPTools/maptool/blob/1.9.0-beta.3/CHANGE_LOG.md

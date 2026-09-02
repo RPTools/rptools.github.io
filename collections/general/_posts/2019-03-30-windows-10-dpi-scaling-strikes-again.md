@@ -24,3 +24,6 @@ The template tool and the rest of MapTool for that matter should work as usual.
 The RPTools team continues to work on this issue. We’re investigating how to make this setting change within MapTool. We also hope the move to JavaFX will eliminate the need for this configuration change going forward.
 
 For help with MapTool, TokenTool, or other RPTools products, please see the [RPTools Forums]({{ site.data.links.forums | escape }}) or live chat on [Discord]({{ site.data.links.discord | escape }}).
+
+
+{% include md-links.md %}

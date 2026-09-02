@@ -47,3 +47,6 @@ There are two other buttons to note:
 - **Star** lets the project know you like it and it will allow you to select it easily from your space.
 
 We’ll continue discussing GitHub in the coming days including how to set up for MapTool Development.
+
+
+{% include md-links.md %}

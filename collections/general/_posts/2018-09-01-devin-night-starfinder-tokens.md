@@ -46,3 +46,6 @@ This set of tokens is not published, endorsed, or specifically approved by Paizo
 For more information about Paizo’s Community Use Policy, please visit paizo.com/communityuse.
 
 For more information about Paizo Inc. and Paizo products, please visit paizo.com.
+
+
+{% include md-links.md %}

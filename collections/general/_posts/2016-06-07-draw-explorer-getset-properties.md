@@ -28,3 +28,6 @@ The gettable/settable properties include
 Please note: there is a current bug in MapTool that is not easily resolved around re-rendering the map after changes in the Draw Explorer. This will potentially cause the changes made in Draw Explorer to not show on the map until you rerender via zoom or another rerendering event.
 
 Please feel free to try the new functionality in the [Dev/Test Build of MapTool](/2016/05/maptool-devtest-version-1-4-1-2/). You can provide feedback in the [forums]({{ site.data.links.forums | escape }}/viewtopic.php?f=1&t=26693) or as a comment here.
+
+
+{% include md-links.md %}

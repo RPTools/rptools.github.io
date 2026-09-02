@@ -30,3 +30,6 @@ Change Log: <https://github.com/RPTools/maptool/compare/1.12.2…1.13.0>
 ## Where can you get this amazing FREE product?
 
 Downloads: <https://github.com/RPTools/maptool/releases/tag/1.13.0>
+
+
+{% include md-links.md %}

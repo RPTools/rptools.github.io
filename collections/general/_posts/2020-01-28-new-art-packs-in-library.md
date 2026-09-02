@@ -33,3 +33,6 @@ Quick and dirty example map:
 </figure>
 
 Find out more about Kristian’s works at his [patreon](https://www.patreon.com/csp_kris) and see published works by Crooked Staff Publishing on [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/3785/Crooked-Staff-Publishing).
+
+
+{% include md-links.md %}

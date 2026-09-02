@@ -22,3 +22,6 @@ We’re experimenting with a new distribution method by allowing users the abili
 We’ve placed the latest development build for MapTool (1.4.1.8) on DTRPG for [Linux](https://www.drivethrurpg.com/product/222373/MapTool-Dev-Build-for-Linux?affiliate_id=1002608), [Mac](https://www.drivethrurpg.com/product/222372/MapTool-Dev-Build-for-Mac?affiliate_id=1002608), and [Windows](https://www.drivethrurpg.com/product/222369/MapTool-Dev-Build-for-Microsoft-Window?affiliate_id=1002608). We’ll have the latest stable release (1.4.0.5) up within the week. TokenTool will be next. You’ll be able to find all our DTRPG submissions on our [Publisher’s Page](https://www.drivethrurpg.com/browse/pub/12049/RPTools?affiliate_id=1002608).
 
 Any DTRPG income will go to RPTools expenses such as server costs, security certificates, website localization, etc. Your friendly, international RPTools staff will always be an all-volunteer force. We hope you understand and support this new channel and hope you use it going forward.
+
+
+{% include md-links.md %}

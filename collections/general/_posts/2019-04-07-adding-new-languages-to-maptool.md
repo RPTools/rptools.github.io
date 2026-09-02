@@ -21,3 +21,6 @@ The format of the file name is i18n_xx.properties with xx being the [language de
 So if you see a language you would like to add, grab the i18n.properties file and rename it based on the country code above. Translate the file and submit it to the forums, GitHub or Discord. The most important thing is to submit changes in UTF-8 or use the `\u` notation in the description. Your favorite search engine can tell you how to do this or you can simply ask how on one of our social media outlets.
 
 These translations will serve to expand the RPTools community and eventually bring about world peace through gaming.
+
+
+{% include md-links.md %}

@@ -35,3 +35,6 @@ That looks much better! Now I just need to move the merged shadow to the bottom 
 Note that you cannot ‘unmerge’ merged drawings and drawing borders will disappear from overlapping sections. Also, the merged drawing will have the same border, fill, and transparency settings. The properties will be pulled from the object under the mouse pointer.
 
 Please feel free to try the new functionality in the [Dev/Test Build of MapTool](/2016/05/maptool-devtest-version-1-4-1-2/). You can provide feedback in the [forums]({{ site.data.links.forums | escape }}/viewtopic.php?f=1&t=26693) or as a comment here.
+
+
+{% include md-links.md %}
