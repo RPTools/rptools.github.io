@@ -3,7 +3,7 @@ layout: post
 title: "Windows 10 DPI Scaling Strikes Again!"
 tags: bug maptool
 author: bard
-icon: /assets/img/SwatBug.webp
+image: /assets/img/SwatBug.webp
 slug: windows-10-dpi-scaling-strikes-again
 ---
 

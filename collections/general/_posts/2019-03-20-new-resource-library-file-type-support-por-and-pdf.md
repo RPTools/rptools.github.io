@@ -3,7 +3,7 @@ layout: post
 title: "New Resource Library File Type Support (POR and PDF)"
 tags: feature hero-lab maps pdf tokens maptool
 author: bard
-icon: /assets/img/PORSupport.webp
+image: /assets/img/PORSupport.webp
 slug: new-resource-library-file-type-support-por-and-pdf
 ---
 

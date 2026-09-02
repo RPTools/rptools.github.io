@@ -3,7 +3,7 @@ layout: post
 title: Crowdin for MapTool Internationalization
 tags: community maptool
 author: bard
-icon: /assets/img/logos/crowdin-dark-symbol.webp
+image: /assets/img/logos/crowdin-dark-symbol.webp
 slug: crowdin-for-maptool-internationalization
 excerpt_separator: "<!--more-->"
 ---

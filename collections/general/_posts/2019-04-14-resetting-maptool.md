@@ -3,7 +3,7 @@ layout: post
 title: Resetting MapTool JVM Settings
 tags: maptool
 author: bard
-icon: /assets/img/keep-calm-and-press-the-reset-button.webp
+image: /assets/img/keep-calm-and-press-the-reset-button.webp
 slug: resetting-maptool
 ---
 

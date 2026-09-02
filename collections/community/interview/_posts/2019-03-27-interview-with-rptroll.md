@@ -3,7 +3,7 @@ layout: post
 title: "Blast from the Past: Interview with RPTroll"
 tags: blast-from-the-past interview
 author: bard
-icon: /assets/img/post-icons/TrollBard.webp
+image: /assets/img/post-icons/TrollBard.webp
 slug: blast-from-the-past-interview-with-rptroll
 ---
 

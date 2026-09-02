@@ -3,7 +3,7 @@ layout: post
 title: View HTML code from Frame or Dialog
 tags: html macros maptool
 author: bard
-icon: /assets/img/HTML.webp
+image: /assets/img/HTML.webp
 slug: view-html-code-from-frame-or-dialog
 excerpt_separator: "<!--more-->"
 ---

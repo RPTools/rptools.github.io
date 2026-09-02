@@ -3,7 +3,7 @@ layout: post
 title: "Draw Explorer: Get/Set Properties"
 tags: feature drawing maptool
 author: bard
-icon: /assets/img/logos/RPTools_Map_Logo_512.png
+image: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: draw-explorer-getset-properties
 excerpt_separator: "<!--more-->"
 ---

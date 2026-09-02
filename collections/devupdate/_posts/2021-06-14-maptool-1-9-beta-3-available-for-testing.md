@@ -3,7 +3,7 @@ layout: post
 title: "MapTool 1.9 Beta 3 Available for Testing"
 tags: devtest maptool
 author: bard
-icon: /assets/img/DevTestBuild.webp
+image: /assets/img/DevTestBuild.webp
 slug: maptool-1-9-beta-3-available-for-testing
 ---
 

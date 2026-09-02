@@ -3,7 +3,7 @@ layout: post
 title: "Draw Explorer: Vision Blocking Layer"
 tags: feature drawing vbl vision maptool
 author: jagged
-icon: /assets/img/map4.webp
+image: /assets/img/map4.webp
 slug: draw-explorer-vision-blocking-layer
 ---
 

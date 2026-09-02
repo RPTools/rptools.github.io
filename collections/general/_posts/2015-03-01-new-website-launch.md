@@ -3,7 +3,7 @@ layout: post
 title: New Website Launch
 tags: announcements
 author: bard
-icon: /assets/img/logos/RPTools_Logo_512.png
+image: /assets/img/logos/RPTools_Logo_512.png
 slug: new-website-lauch
 excerpt_separator: "<!--more-->"
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "New Feature: Token VBL"
 tags: feature vision maptool
 author: bard
-icon: /assets/img/TokenVBL2.webp
+image: /assets/img/TokenVBL2.webp
 slug: new-feature-token-vbl
 ---
 

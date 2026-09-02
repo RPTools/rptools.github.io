@@ -3,7 +3,7 @@ layout: post
 title: "We Bid Farewell to Az, Jagged and Jamz"
 tags: announcements
 author: bard
-icon: /assets/img/Goodbye.webp
+image: /assets/img/Goodbye.webp
 slug: we-bid-farewell-to-az-jagged-and-jamz
 excerpt_separator: "<!--more-->"
 ---

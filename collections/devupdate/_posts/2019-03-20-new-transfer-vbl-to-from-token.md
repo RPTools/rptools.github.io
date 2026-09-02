@@ -3,7 +3,7 @@ layout: post
 title: "New Transfer VBL to/from Token"
 tags: feature tokens vbl maptool
 author: bard
-icon: /assets/img/TokenVBLColumn-X.webp
+image: /assets/img/TokenVBLColumn-X.webp
 slug: new-transfer-vbl-to-from-token
 ---
 

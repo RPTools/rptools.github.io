@@ -3,7 +3,7 @@ layout: post
 title: "Draw Explorer: Named Drawings"
 tags: feature drawing mapping maptool
 author: jagged
-icon: /assets/img/1DrawingExplorerRename.webp
+image: /assets/img/1DrawingExplorerRename.webp
 slug: draw-explorer-named-drawings
 excerpt_separator: "<!--more-->"
 ---

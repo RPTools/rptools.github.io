@@ -3,7 +3,7 @@ layout: post
 title: "Draw Explorer: Merging"
 tags: feature drawing maptool
 author: jagged
-icon: /assets/img/logos/RPTools_Map_Logo_512.png
+image: /assets/img/logos/RPTools_Map_Logo_512.png
 slug: draw-explorer-merging
 excerpt_separator: "<!--more-->"
 ---

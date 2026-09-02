@@ -3,7 +3,7 @@ layout: post
 title: "MapTool Dev/Test Version 1.4.1.8 Available for Download"
 tags: maptool release
 author: bard
-icon: /assets/img/DevTestBuild.webp
+image: /assets/img/DevTestBuild.webp
 slug: maptool-devtest-version-1-4-1-8-available-for-download
 ---
 

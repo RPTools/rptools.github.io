@@ -3,7 +3,7 @@ layout: post
 title: "MapTool Available on DriveThruRPG"
 tags: drivethrurpg maptool
 author: bard
-icon: /assets/img/driveThruRPG.webp
+image: /assets/img/driveThruRPG.webp
 slug: maptool-available-on-drivethrurpg
 excerpt_separator: "<!--more-->"
 ---

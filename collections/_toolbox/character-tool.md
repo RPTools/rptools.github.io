@@ -2,7 +2,7 @@
 layout: tool
 slug: character-tool
 title: CharacterTool
-icon: /assets/img/logos/RPTools_Char_Logo_512.png
+image: /assets/img/logos/RPTools_Char_Logo_512.png
 asset:
     type: zip
     url: /assets/downloads/chartool-1.0.b15.zip

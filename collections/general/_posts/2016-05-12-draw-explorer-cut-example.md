@@ -3,7 +3,7 @@ layout: post
 title: "Draw Explorer: Cut example"
 tags: feature drawing maptool
 author: jagged
-icon: /assets/img/draw-explorer-cut-example.webp
+image: /assets/img/draw-explorer-cut-example.webp
 slug: draw-explorer-cut-example
 ---
 

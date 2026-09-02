@@ -2,7 +2,7 @@
 layout: tool
 slug: dice-tool
 title: DiceTool
-icon: /assets/img/logos/RPTools_Dice_Logo_403.png
+image: /assets/img/logos/RPTools_Dice_Logo_403.png
 asset:
     type: zip
     url: /assets/downloads/dicetool-1.0.b34.zip

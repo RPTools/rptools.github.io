@@ -3,7 +3,7 @@ layout: post
 title: "Blast from the Past: Interview with Craig"
 tags: blast-from-the-past interview
 author: bard
-icon: /assets/img/post-icons/Craig.webp
+image: /assets/img/post-icons/Craig.webp
 slug: blast-from-the-past-interview-with-craig
 ---
 

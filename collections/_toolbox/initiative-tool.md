@@ -2,7 +2,7 @@
 layout: tool
 slug: initiative-tool
 title: InitiativeTool
-icon: /assets/img/logos/RPTools_Init_Logo_512.png
+image: /assets/img/logos/RPTools_Init_Logo_512.png
 asset:
     type: zip
     url: /assets/downloads/initiativetool-1.1.b9.zip

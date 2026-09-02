@@ -3,7 +3,7 @@ layout: post
 title: RPTools is the Millennium Falcon of RPG Software
 tags: tokentool
 author: admin
-icon: /assets/img/Bandit1.webp
+image: /assets/img/Bandit1.webp
 slug: welcome
 ---
 <figure class="float float--right float--30">

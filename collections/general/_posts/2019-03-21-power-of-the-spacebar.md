@@ -3,7 +3,7 @@ layout: post
 title: "Power of the Spacebar"
 tags: feature maptool
 author: bard
-icon: /assets/img/GMCenterZoom.webp
+image: /assets/img/GMCenterZoom.webp
 slug: power-of-the-spacebar
 ---
 
