@@ -65,7 +65,7 @@ APs from Paizo) are 100% online.
 ### What about the product made it your VTT of choice?
 
 Everything! Flexibility, functionality, portability, extensibility, etc. I typically use Unix at home (mostly Linux and now Mac OS X) and most of my players use
-Windows so I needed a VTTthat worked across a variety of platforms. I consider [Java-based tools](https://www.java.com/) as the best way to go for that. Other
+Windows so I needed a VTT that worked across a variety of platforms. I consider [Java-based tools](https://www.java.com/) as the best way to go for that. Other
 options include Python (such as used by [OpenRPG](https://www.openrpg.com/)) but those platforms just don’t have the industry base behind them that Java has.
 
 ![Java logo](https://i0.wp.com/liveperson-partners.s3.amazonaws.com/java/auto/java_logo.png?w=1200)
