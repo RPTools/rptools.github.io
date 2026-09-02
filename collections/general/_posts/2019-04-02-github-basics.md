@@ -21,15 +21,15 @@ GitHub also functions as a social networking site for programmers and/or develop
 
 The first thing to do is to create a GitHub account if you don’t have one already. Simply go to [github.com](https://github.com/) and register. Next, you’ll want to navigate to RPTools home on GitHub: [github.com/RPTools](https://github.com/RPTools). There you’ll be on the factory floor of all RPTools development. The two most important project here will be [MapTool](https://github.com/RPTools/maptool) and [TokenTool](https://github.com/RPTools/TokenTool). Note that we have other projects in the work such as a new Dice Library being worked on by Craig.
 
-<img class="post-example" src="/assets/img/github1.webp" alt="github1">
+![RPTools GitHub repositories tab](/assets/img/github1.webp){: .post-example }
 
 Clicking on either link will take you down into the repositories themselves. What you’ll see is the guts of the project including all the source code and other files that make up the RPTools products.
 
-<img class="post-example" src="/assets/img/github2.webp" alt="github2">
+![MapTool GitHub repository](/assets/img/github2.webp){: .post-example }
 
 As a non-coder, there are a few things you might want to do on this page. All these options are near the top.
 
-<img class="post-example" src="/assets/img/github3.webp" alt="github3">
+![Highlighting the issue tracker, insights tab, and fork button](/assets/img/github3.webp){: .post-example }
 
 The **Issues** tab gives you a list of past and current issues along with the GitHub conversations regarding them. You can create an issue here as well. The devs are pretty good at responding in short order.
 

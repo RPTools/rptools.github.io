@@ -8,7 +8,7 @@ slug: crowdin-for-maptool-internationalization
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float float--left float--15" src="/assets/img/logos/crowdin-dark-symbol.webp" alt="crowdin-dark-symbol">
+![Crowdin dark logo](/assets/img/logos/crowdin-dark-symbol.webp){: .float .float--left .float--15 }
 
 RPTools products are used worldwide and support 11 languages as of this writing. We’ve always relied on volunteers to provide translations for the menus, tooltips, and labels in MapTool and TokenTool. We’ve now made it easier to contribute by leveraging [crowdin](https://crowdin.com/), a third-party translation site.
 
@@ -16,7 +16,7 @@ RPTools products are used worldwide and support 11 languages as of this writing.
 
 Crowdin allows users to add new or edit existing language files for the MapTool user interface. You will need to create an account on crowdin or log in with an existing Facebook, Google, Twitter, GitHub or GitLab account. Once you have an account, go to the [MapTool project](https://crowdin.com/project/maptool) to view the current languages and the progress in translating them.
 
-<img class="post-example" src="/assets/img/Crowdin.webp" alt="Crowdin">
+![Crowdin home page](/assets/img/Crowdin.webp){: .post-example }
 
 You select the language you wish to work on and submit a join request for the project. Once added, you’ll be able to edit the language files and provide translations. If your language is missing, contact one of the MapTool project managers about getting it added via [Discord]({{ site.data.links.discord | escape }}) or the [Forums]({{ site.data.links.forums | esacpe }}). Please read the [Intro for Volunteer Translators](https://support.crowdin.com/for-volunteer-translators/) before starting your translation efforts.
 

@@ -8,7 +8,7 @@ slug: new-website-lauch
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float float--right float--30" src="/assets/img/champagne.webp">
+![opening champagne bottle](/assets/img/champagne.webp){: .float .float--right .float--30 }
 
 Welcome to RPTools new website. We hope you find the new site cleaner, slicker, and easier to navigate. We’ve added a group of quick
 links to the sidebar and reorganized the pages a bit including links to the [forums]({{ site.data.links.forums | escape }}),

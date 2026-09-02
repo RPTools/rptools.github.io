@@ -13,15 +13,15 @@ When activated via the new ‘AI’ toggle button in MapTool version 1.5, tokens
 
 To set the terrain modifier of a token, open the Edit Panel by double clicking the token or accessing it via the right-click menu. Navigate to the Config tab as shown below, and set the modifier. You can also set the token opacity from here.
 
-<img class="post-example" src="/assets/img/Terrain-and-Transparency.webp" alt="Terrain and Transparency">
+![Terrain and Transparency](/assets/img/Terrain-and-Transparency.webp){: .post-example }
 
 As you learned in a previous post, you can now remove VBL covering drawings. This is how I quickly generated the image below. The staircase stamp has a terrain value of 2 as do the other steps in the horizontal corridor. There is also VBL on the stamped steps as well to make the PCs navigate them as they should.
 
-<img class="post-example" src="/assets/img/VBL.webp" alt="VBL">
+![VBL on stamped steps](/assets/img/VBL.webp){: .post-example }
 
 With the movement AI enabled, the PC can be dragged anywhere but should go around VBL and suffer appropriate movement penalties when passing over tokens with a Movement Modifier.
 
-<img class="post-example" src="/assets/img/MovementMods.webp" alt="MovementMods.webp">
+![Pathfinding with movement modifiers](/assets/img/MovementMods.webp){: .post-example }
 
 There are a few limitations to the new movement AI, however.
 

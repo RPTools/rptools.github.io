@@ -8,7 +8,7 @@ slug: draw-explorer-getset-properties
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float float--right float--15" src="/assets/img/draw-explorer-6.webp" alt="6">
+![Drawing palette](/assets/img/draw-explorer-6.webp){: .float .float--right .float--15 }
 
 With the release of Maptool 1.4.2 you will have the ability to get a drawing’s properties and apply those to another drawing. You can try this functionality in the [Dev/Test Build of MapTool](/2016/05/maptool-devtest-version-1-4-1-2/) now but we don’t recommend using Dev/Test for your gaming sessions unless you’re the adventurous sort.
 

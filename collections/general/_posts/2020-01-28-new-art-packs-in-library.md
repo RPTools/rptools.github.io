@@ -10,11 +10,11 @@ slug: new-art-packs-in-library
 
 Go to the File menu in MapTool and select Add Resource to Library. On the dialog that opens, click on the red gear icon to see the packs that you haven’t downloaded.
 
-<figure>
-    <img class="post-example" src="/assets/img/CSP-Art-Packs.webp" alt="CSP-Art-Packs">
-    <figcaption>
-        New Art Packs
-    </figcaption>
+<figure markdown="1">
+  ![Add Resource dialog with CSP art packs selected](/assets/img/CSP-Art-Packs.webp){: .post-example }
+  <figcaption>
+    New Art Packs
+  </figcaption>
 </figure>
 
 Extending the existing CSP Dungeon Geomorphs pack. The four new packs are:
@@ -25,11 +25,11 @@ Extending the existing CSP Dungeon Geomorphs pack. The four new packs are:
 
 Quick and dirty example map:
 
-<figure>
-    <img class="post-example" src="/assets/img/CSPGeomorphs.webp" alt="CSPGeomorphs">
-    <figcaption>
-        Example using the CSP Geomorphs
-    </figcaption>
+<figure markdown="1">
+  ![Example map built with CSP geomorphs](/assets/img/CSPGeomorphs.webp){: .post-example }
+  <figcaption>
+    Example using the CSP Geomorphs
+  </figcaption>
 </figure>
 
 Find out more about Kristian’s works at his [patreon](https://www.patreon.com/csp_kris) and see published works by Crooked Staff Publishing on [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/3785/Crooked-Staff-Publishing).

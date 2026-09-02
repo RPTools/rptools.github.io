@@ -7,7 +7,7 @@ image: /assets/img/SyrinScape-2.webp
 slug: playing-sound-in-maptool-via-syrinscape
 ---
 
-<img class="post-example" src="/assets/img/SyrinScape.webp">
+![Syrinscape banner](/assets/img/SyrinScape.webp){: .post-example }
 
 One of the overlooked features of MapTool 1.5 is the introduction of [RESTful]({{ site.data.links.wiki }}/index.php/RESTful_Functions_Overview) functionality in the MapTool scripting language – MTScript. For the non-programmers, RESTful is a software architectural style that defines a set of constraints to be used for creating Web services. These take the form of an HTTP call, like when you put a web site URL into your web browser. The industry term for exposing a RESTful interface is called an Application Programming Interface or API.
 

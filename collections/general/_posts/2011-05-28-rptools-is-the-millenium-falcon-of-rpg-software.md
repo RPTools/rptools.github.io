@@ -6,8 +6,9 @@ author: admin
 image: /assets/img/Bandit1.webp
 slug: welcome
 ---
-<figure class="float float--right float--30">
-  <img src="/assets/img/Bandit1.webp" alt="RPTools Game in Progress">
+
+<figure class="float float--right float--30" markdown="1">
+  ![RPTools Game in Progress](/assets/img/Bandit1.webp)
   <figcaption>MapTool Light and Sight</figcaption>
 </figure>
 

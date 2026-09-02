@@ -11,9 +11,9 @@ slug: resetting-maptool
 
 If you changed the JVM memory settings under Edit->Preferences, there is a possibility of adding an invalid value that will keep MapTool from starting.
 
-<img class="post-example" src="/assets/img/ResetJVM.webp" alt="ResetJVM">
+![JVM Memory Settings in Startup tab of Preferences dialog](/assets/img/ResetJVM.webp){: .post-example }
 
-he first method is to pass the `-reset` option to your MapTool executable. The location of the MapTool executable will vary based on operating system.
+The first method is to pass the `-reset` option to your MapTool executable. The location of the MapTool executable will vary based on operating system.
 
 - Windows: `C:\Users\[username]\AppData\Local\MapTool\MapTool.exe -reset`
 - Linux: `/opt/MapTool/MapTool -reset`

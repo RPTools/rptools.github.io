@@ -8,7 +8,7 @@ slug: maptool-devtest-version-1-4-1-6-released
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="post-example" src="/assets/img/LauncherWindow-1.4.1.6.webp" alt="LauncherWindow">
+![Launcher window](/assets/img/LauncherWindow-1.4.1.6.webp){: .post-example }
 
 The last (hopefully) Dev/Test version in the 1.4.1 series is now available for download from <https://maptool.craigs-stuff.net/test-builds/>. The 1.4.1 series saw a large number of major changes which will now be rolled into the forthcoming 1.4.2 production release. We’ll only release a 1.4.1.7 if more testing is required.
 
@@ -23,7 +23,7 @@ Please see the voluminous retrospective below for all that went into 1.4.1
 ### Build 1.4.1.6
 New Features
 
-<img class="float float--right float--30" src="/assets/img/NewTokenVBL.webp" alt="NewTokenVBL">
+![New Token VBL](/assets/img/NewTokenVBL.webp){: .float .float--right .float--30 }
 
 - New tab on Edit Token Dialog to show Token VBL which allows: (Jamz)
   - Auto Generation of VBL based on non-transparent/translucent image pixels
@@ -70,12 +70,11 @@ Build/Code Related
 
 ### Build 1.4.1.3
 
-<img class="float float--right float--30" src="/assets/img/draw-explorer.webp" alt="Draw Explorer">
-
 New Features
 
+![Draw Explorer](/assets/img/draw-explorer.webp){: .float .float--right .float--30 }
 - JavaScript API (first tentative steps) (Craig)
-- Draw explorer additions (Jagged)
+- Draw explorer additions (Jagged) 
   - set and get properties and merge drawing functions
 - Light/FoW/VBL (Jamz)
   - New checkRegion method relaxed the bounds check, for use with VBL Tokens.
@@ -101,9 +100,7 @@ New Features
   - New Splash screen created for MapTool (also used for jWrapper installing splash)
   - SplashScreen class updated to support transparent background images and new coords for version #
   - New command line options for MapTool, debug, version, monitor, fullscreen, width, height, xpos, ypos. use -w=500 or -width=500 for instance to set MT frame width to 500. -fullscreen has no param.New Deployment Option: jWrapper (Jamz)
-
-<img class="float float--right float--30" src="/assets/img/ZoomImageExplorer.webp" alt="ZoomImageExplorer">
-- Other (Jamz)
+- Other (Jamz) ![zoom image explorer](/assets/img/ZoomImageExplorer.webp){: .float .float--right .float--30 }
   - Tokens now save a “large” thumbnail for use with larger preview thumbs. This saves a small thumbnail for backward compatibility with older MT versions.
   - Token “Path” improvements, fixes issue when dragging nonSnapToGrid with snapToGrid tokens together.
   - Token popup menu, Save As… now works on multiple tokens. Options added to default to token name or GM name as well as skip/show all prompts during the token save.

@@ -8,7 +8,7 @@ slug: html5-coming-to-maptool
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float float--right float-30" src="/assets/img/html5.webp" alt="html5">
+![HTML5 logo](/assets/img/html5.webp){: .float .float--right .float-30 }
 
 The MapTool elves have been busy this holiday season. They’ve introduced two new macro functions to produce HTML5 dialogs and frames. The new macro functions frame5() and dialog5() can be used in place of the HTML3 [frame()]({{ site.data.links.wiki }}/index.php/frame_(roll_option)) and [dialog()]({{ site.data.links.wiki }}/index.php/dialog_(roll_option)) macro functions.
 

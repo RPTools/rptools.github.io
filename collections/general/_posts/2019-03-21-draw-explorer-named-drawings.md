@@ -8,7 +8,7 @@ slug: draw-explorer-named-drawings
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float float--right float--30" src="/assets/img/DrawingsNamed.webp" alt="DrawingsNamed">
+![Draw Explorer showing named drawings](/assets/img/DrawingsNamed.webp){: .float .float--right .float--30 }
 
 With the release of Maptool 1.5 comes a much-requested feature to the Draw Explorer. You can _**name**_ drawings or groups of drawings via the Draw Explorer interface. This might not sound like much, but it greatly helps you navigate your way those around large, complex maps.
 

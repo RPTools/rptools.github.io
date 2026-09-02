@@ -7,7 +7,7 @@ support the distribution of resource libraries (ask Dorpond how; you can find hi
 
 If you have a MapTool friendly product, we encourage you to use the MapTool Compatibility Logo.
 
-<img class="post-example" src="/assets/img/MaptoolCompatible.png">
+![MapTool compatibility logo](/assets/img/MaptoolCompatible.png){: .post-example }
 
 If you produce maps, tokens, or other adventure art, MapTool is a great way to introduce people to your work by donating graphic content to the RPTools project.
 The easiest way to accomplish this is to produce an RPMap project which will be distributed via automated download to MapTool. There are a few rules, however,

@@ -9,7 +9,7 @@ slug: maptool-1-10-2-released
 
 We found a few more spots where the webp images were problematic. This release fixes them in getImage and tblImage macros.
 
-<img class="post-example" src="/assets/img/Maptool1_10_2_meme.webp" alt="Maptool1_10_2_meme">
+![MapTool 1.10.2 meme](/assets/img/Maptool1_10_2_meme.webp){: .post-example }
 
 You can download available versions of MapTool from [GitHub](https://github.com/RPTools/maptool/releases/latest).
 

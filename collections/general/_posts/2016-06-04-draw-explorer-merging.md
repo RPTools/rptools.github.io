@@ -8,7 +8,7 @@ slug: draw-explorer-merging
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float float--right float--15" src="/assets/img/draw-explorer-merge4.webp" alt="merge4">
+![Final result preview](/assets/img/draw-explorer-merge4.webp){: .float .float--right .float--15 }
 
 With the release of Maptool 1.4.2, you will have the ability to merge different drawn elements of your map together. You can try this functionality in the [Dev/Test Build of MapTool](/2016/05/maptool-devtest-version-1-4-1-2/) now but we don’t recommend using Dev/Test for your gaming sessions unless you’re the adventurous sort. If you’re unfamiliar with the Draw Explorer, we detailed its initial functionality in a [previous post](/2016/05/new-functionality-draw-explorer/).
 
@@ -18,19 +18,19 @@ Merge Drawing is somewhat like Group Drawings where you can work with a series o
 
 Take the following example where we wish to add a drop-shadow to a simple tower:
 
-<img class="post-example" src="/assets/img/draw-explorer-merge1.webp" alt="merge1">
+![Step 1](/assets/img/draw-explorer-merge1.webp){: .post-example }
 
 I have decided that I want the shadow to give the impression that the tower is tall, so I create a circular shadow (black with transparency set at 60%) below and to the left of the tower that is also slightly smaller. Then I draw two triangles to join the circle to the tower.
 
-<img class="post-example" src="/assets/img/draw-explorer-merge2.webp" alt="merge2">
+![Step 2](/assets/img/draw-explorer-merge2.webp){: .post-example }
 
 Now obviously this creates some nasty “shadow overlaps”, so I select the two triangles and circle shadows in the Draw Explorer and merge them together.
 
-<img class="post-example" src="/assets/img/draw-explorer-merge3.webp" alt="merge3">
+![Step 3](/assets/img/draw-explorer-merge3.webp){: .post-example }
 
 That looks much better! Now I just need to move the merged shadow to the bottom and we are finished.
 
-<img class="post-example" src="/assets/img/draw-explorer-merge4.webp" alt="merge4">
+![Final result](/assets/img/draw-explorer-merge4.webp){: .post-example }
 
 Note that you cannot ‘unmerge’ merged drawings and drawing borders will disappear from overlapping sections. Also, the merged drawing will have the same border, fill, and transparency settings. The properties will be pulled from the object under the mouse pointer.
 

@@ -8,7 +8,7 @@ slug: maptool-devtest-version-1-4-1-4-released
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="float float--right float--15" src="/assets/img/DevTestBuild.webp" alt="DevTestBuild">
+![dev build icon](/assets/img/DevTestBuild.webp){: .float .float--right .float--15 }
 
 The RPTools craftsmen produced a new Dev/Test MapTool version for you to try. Adventurous GMs should consider trying it in one of your games but be very sure to save a backup copy of your campaign first. There will likely be one more Dev/Test release before we increment to 1.4.2.0 so please take some time to try this version so we can catch as many bugs as possible before we release it into the gaming wilds.
 

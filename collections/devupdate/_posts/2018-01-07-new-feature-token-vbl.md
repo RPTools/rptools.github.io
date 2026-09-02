@@ -13,17 +13,17 @@ A new feature in MapTool 1.4.1.8 is Token VBL. It allows the GM to place VBL on 
 
 Here is a drawing of a standard dungeon, with PCs exploring a corridor ending with doors.
 
-<img class="post-example" src="/assets/img/TokenVBL1.webp" alt="TokenVBL1">
+![Token VBL example 1](/assets/img/TokenVBL1.webp){: .post-example }
 
 Note that the doors of fully visible but completely blocking the sight of the PCs. This is a great improvement of the previous versions of MT which had the GM clearing VBL as the characters opened doors. Now all the GM does is rotate the door to reveal to the PCs what’s beyond the doors.
 
 In the picture below, the hero cracks to the door open to see what’s inside. Note that the VBL associate with the door moves with the door as it swings open.
 
-<img class="post-example" src="/assets/img/TokenVBL2.webp" alt="TokenVBL2">
+![Token VBL example 2](/assets/img/TokenVBL2.webp){: .post-example }
 
 The elf now opens the door a bit further to reveal more of the creature within.
 
-<img class="post-example" src="/assets/img/TokenVBL3.webp" alt="TokenVBL3">
+![Token VBL example 3](/assets/img/TokenVBL3.webp){: .post-example }
 
 Joy, it’s a dragon. The battle is joined.
 
@@ -31,11 +31,11 @@ To create token VBL, simply double-click the token or object to bring up the edi
 
 Visibility tolerance indicates how much of the object must be seen in order to see any of it. There are nine points on any token to be considered – four for each corner, four each midpoint between corners, and 1 for the center of the object. Thus a Visibility tolerance of 2 indicates that if any 2 points from that list are seen then the entire object is seen. In most cases, 2 is sufficient.
 
-<img class="post-example" src="/assets/img/TokenVBL4.webp" alt="TokenVBL4">
+![Token VBL example 4](/assets/img/TokenVBL4.webp){: .post-example }
 
 You can also have the VBL fully encompass the entire image (VBL Sensitivity 0 seen above), or ignore the transparent portions of the image by increasing the VBL Sensitivity. (see below).
 
-<img class="post-example" src="/assets/img/TokenVBL5.webp" alt="TokenVBL5">
+![Token VBL example 5](/assets/img/TokenVBL5.webp){: .post-example }
 
 The final effect allows for this functionality.
 

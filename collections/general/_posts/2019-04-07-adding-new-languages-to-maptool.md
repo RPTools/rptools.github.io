@@ -8,7 +8,7 @@ slug: adding-new-languages-to-maptool
 excerpt_separator: "<!--more-->"
 ---
 
-<img class="post-example" src="/assets/img/img_1903.webp" alt="img_1903">
+![Languages globe](/assets/img/img_1903.webp){: .post-example }
 
 RPTools is an international community. We see this on the social sites as well as in our developer group. There are also several native language support sites. Translating the text in MapTool is one of the many ways we support each other.
 

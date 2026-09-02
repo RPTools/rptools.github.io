@@ -21,15 +21,15 @@ Bug Alert! There is a known bug that can strike if you load a campaign with an e
 
 Here’s a preview of the new macro editor with syntax highlighting.
 
-<img class="post-example" src="/assets/img/MacroEditorDual.webp" alt="MacroEditorDual">
+![two macro editors showing syntax highlighting](/assets/img/MacroEditorDual.webp){: .post-example }
 
 The code completion function brings up a list of functions with help on the parameters the function accepts. This is a work in progress but most of the functions are now documented.
 
-<img class="post-example" src="/assets/img/CodeCompletion-1.webp" alt="CodeCompletion-1">
+![macro editor code completion](/assets/img/CodeCompletion-1.webp){: .post-example }
 
 There is also the ability to search within a macro using command keys, find/replace dialog, or adding a search bar to your editor. You can also go to a specific line number in your macro. You access these features from the main MapTool Edit menu.
 
-<img class="post-example" src="/assets/img/MacroSearch-1.webp" alt="MacroSearch-1.webp">
+![macro editor search](/assets/img/MacroSearch-1.webp){: .post-example }
 
 The new editor is compliments of RSyntaxTextArea. You can find more information regarding this widget on the [RsyntaxTextArea Github](https://bobbylight.github.io/RSyntaxTextArea/) site.
 

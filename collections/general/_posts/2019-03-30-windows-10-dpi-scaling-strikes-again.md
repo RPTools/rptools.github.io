@@ -13,11 +13,11 @@ Recently, community member Vishika complained the templating tool has issues in 
 
 To fix for MapTool only without affecting the entire display right click on the MapTool icon in the task bar and select Properties.
 
-<img class="post-example" src="/assets/img/dpi1.webp" alt="dpi1">
+![Finding MapTool application properties in Windows](/assets/img/dpi1.webp){: .post-example }
 
 From the Compatibility Tab, select Change High DPI Settings. On the popup screen, adjust the DPI settings to those below.
 
-<img class="post-example" src="/assets/img/dpi3.webp" alt="dpi3">
+![The necessary compatibility settings to fix MapTool blurriness ](/assets/img/dpi3.webp){: .post-example }
 
 The template tool and the rest of MapTool for that matter should work as usual.
 

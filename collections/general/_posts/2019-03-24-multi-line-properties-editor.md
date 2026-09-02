@@ -10,11 +10,11 @@ slug: multi-line-properties-editor
 <section markdown="1">
 As part of the 1.5.0 release, MapTool included a popup window to allow for multiple-line editing of properties. Prior to this release, you would need to copy a long properties entry to another editor, make your changes, then copy it back. With 1.5, you can simply click into the properties field, then on the down arrow next to the property value to bring up an editing window.
 
-<img class="post-example" src="/assets/img/MultiLineEditor.webp" alt="MultiLineEditor">
+![Multi-line property value editor](/assets/img/MultiLineEditor.webp){: .post-example }
 
 So those huge JSON properties can now be formatted and save to make for easier editing without resorting to a copy and paste to another editor.
 
-<img class="float float--left float--30" src="/assets/img/MultiLineEditor2.webp" alt="MultiLineEditor2">
+![Multi-line property value editor with JSON syntax highlighting](/assets/img/MultiLineEditor2.webp){: .float .float--left .float--30 }
 
 The current implementation does not word wrap so you’ll need to insert carriage returns to get the multi-line aspect. This feature should be greatly enhanced with the 1.5.2 release coming at the end of April to include word wrap and have syntax highlighting for JSON objects.
 
