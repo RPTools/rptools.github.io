@@ -11,32 +11,36 @@ permalink: /
 		<p>RPTools offers a VTT with all the functionality as well as a great application for creating your own tokens.</p>
 </header>
 
-<section class="testimonial-list post-content">
-    <header>
-        <h2 class="testimonial-list__heading">Testimonials</h2>
-    </header>
-
-		{%- for testimonial in site.data.testimonials -%}
-		<blockquote class="testimonial-list__item testimonial">
-        <p class="testimonial__content">{{ testimonial.quote | escape }}</p>
-        <footer>
-            <cite class="testimonial__citation"><span class="testimonial__author">{{ testimonial.author | escape }}</span><span class="testimonial__role">{{ testimonial.role | escape }}</span></cite>
-        </footer>
-    </blockquote>
-		{%- endfor -%}
-</section>
-
 <hr>
 
-<section class="post-content">
-		<header>
-				<h2>Be part of the community</h2>
-		</header>
+<div class="post-content">
+		<section class="headed-section testimonial-list">
+				<header>
+						<h2 class="testimonial-list__heading">Testimonials</h2>
+				</header>
 
-		<a href="{{ site.data.links.discord | escape }}" target="_blank"><img class="float float--right float--30" src="/assets/img/discord_wide.webp"></a>
+				{%- for testimonial in site.data.testimonials -%}
+				<blockquote class="testimonial-list__item testimonial">
+						<p class="testimonial__content">{{ testimonial.quote | escape }}</p>
+						<footer>
+								<cite class="testimonial__citation"><span class="testimonial__author">{{ testimonial.author | escape }}</span><span class="testimonial__role">{{ testimonial.role | escape }}</span></cite>
+						</footer>
+				</blockquote>
+				{%- endfor -%}
+		</section>
 
-		<p>Not only is our VTT completely free, it also has an absolutely amazing community supporting the program.
-				We have a forum and wiki where you can find all kinds of answers but we want to invite you to be part of
-				the family. Join our ever growing Discord server and meet the helpful, friendly and supportive users and
-				developers alike. You will find more than just a community, you will find friends.</p>
-</section>
+		<hr>
+
+		<section class="headed-section">
+				<header>
+						<h2>Be part of the community</h2>
+				</header>
+
+				<a href="{{ site.data.links.discord | escape }}" target="_blank"><img class="float float--right float--30" src="/assets/img/discord_wide.webp"></a>
+
+				<p>Not only is our VTT completely free, it also has an absolutely amazing community supporting the program.
+						We have a forum and wiki where you can find all kinds of answers but we want to invite you to be part of
+						the family. Join our ever growing Discord server and meet the helpful, friendly and supportive users and
+						developers alike. You will find more than just a community, you will find friends.</p>
+		</section>
+</div>

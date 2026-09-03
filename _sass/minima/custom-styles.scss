@@ -4,14 +4,18 @@ html {
   scrollbar-gutter: stable;
 }
 
+/* Sections don't need their headers to add additional margins between the header and top of container. */
+.headed-section {
+  header {
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+    }
+  }
+}
+
 .home-header {
   margin-bottom: $spacing-unit;
-  padding-bottom: 18px;
-  border-bottom: 1px solid $border-color-01;
-
-  h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-  }
+  text-align: center;
 }
 
 .social-links__tagline {
