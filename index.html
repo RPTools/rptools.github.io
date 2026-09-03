@@ -14,19 +14,23 @@ permalink: /
 <hr>
 
 <div class="post-content">
-		<section class="headed-section testimonial-list">
+		<section class="headed-section">
 				<header>
-						<h2 class="testimonial-list__heading">Testimonials</h2>
+						<h2>Testimonials</h2>
 				</header>
 
-				{%- for testimonial in site.data.testimonials -%}
-				<blockquote class="testimonial-list__item testimonial">
-						<p class="testimonial__content">{{ testimonial.quote | escape }}</p>
-						<footer>
-								<cite class="testimonial__citation"><span class="testimonial__author">{{ testimonial.author | escape }}</span><span class="testimonial__role">{{ testimonial.role | escape }}</span></cite>
-						</footer>
-				</blockquote>
-				{%- endfor -%}
+				<div class="testimonial-list" data-rate="15000">
+						<button class="testimonial-list__button testimonial-list__button--previous"><i class="fa-solid fa-angle-left"></i></button>
+						{%- for testimonial in site.data.testimonials -%}
+						<blockquote class="testimonial-list__item testimonial {% if forloop.first %}testimonial-list__item--visible{% endif %}">
+								<p class="testimonial__content">{{ testimonial.quote | escape }}</p>
+								<footer>
+										<cite class="testimonial__citation"><span class="testimonial__author">{{ testimonial.author | escape }}</span><span class="testimonial__role">{{ testimonial.role | escape }}</span></cite>
+								</footer>
+						</blockquote>
+						{%- endfor -%}
+						<button class="testimonial-list__button testimonial-list__button--next"><i class="fa-solid fa-angle-right"></i></button>
+				</div>
 		</section>
 
 		<hr>
