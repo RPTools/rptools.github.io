@@ -303,6 +303,35 @@ figure figcaption {
 
 /* endregion */
 
+/* region A list of things presented as distinct sections */
+
+.sectioned-list {
+  .sectioned-list__heading-text {
+    display: block;
+    margin: 0 auto;
+    clear: both;
+
+    text-align: center;
+  }
+  .sectioned-list__heading-icon {
+    display: block;
+    margin: 0 auto;
+    clear: both;
+
+    max-height: 5em;
+  }
+  .sectioned-list__item {
+    margin-top: $spacing-unit;
+    clear: both;
+  }
+  .sectioned-list__item-heading {
+    margin-top: 0;
+    margin-bottom: $spacing-unit * .5;
+  }
+}
+
+/* endregion */
+
 /* region Nice headers with multiple rows */
 
 .listed-post-header {
