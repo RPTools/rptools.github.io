@@ -4,6 +4,15 @@ html {
   scrollbar-gutter: stable;
 }
 
+/* Sections don't need their headers to add additional margins between the header and top of container. */
+.headed-section {
+  header {
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+    }
+  }
+}
+
 .home-header {
   margin-bottom: $spacing-unit;
   text-align: center;
@@ -647,12 +656,6 @@ figure figcaption {
 /* endregion */
 
 /* region Testimonials and lists thereof */
-
-.testimonial-list {
-  .testimonial-list__heading {
-    margin-top: 0;
-  }
-}
 
 // Singular testimonials
 .testimonial {
