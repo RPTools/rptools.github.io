@@ -48,7 +48,7 @@ minima:
     - dev-blog/index.html  # Fragile: This relies on the first page coming first in site.pages
     - pages/toolbox.html
     - pages/community.html
-    - pages/tutorials.html
+    - pages/tutorials.md
     - pages/about-us.html
   social_links:
     - { platform: discord, url: "https://discord.com/invite/dZy7HeYYVY", icon: discord, title: Discord }
