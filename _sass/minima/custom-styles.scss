@@ -6,12 +6,7 @@ html {
 
 .home-header {
   margin-bottom: $spacing-unit;
-  padding-bottom: 18px;
-  border-bottom: 1px solid $border-color-01;
-
-  h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-  }
+  text-align: center;
 }
 
 .social-links__tagline {
@@ -652,6 +647,12 @@ figure figcaption {
 /* endregion */
 
 /* region Testimonials and lists thereof */
+
+.testimonial-list {
+  .testimonial-list__heading {
+    margin-top: 0;
+  }
+}
 
 // Singular testimonials
 .testimonial {
