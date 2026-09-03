@@ -657,8 +657,79 @@ figure figcaption {
 
 /* region Testimonials and lists thereof */
 
+.testimonial-list {
+  display: grid;
+  grid-template-columns: 5ch 1fr 5ch;
+  grid-gap: 0 1ch;
+  justify-items: stretch;
+  align-items: center;
+}
+.testimonial-list__button {
+  grid-row: 1;
+
+  display: inline;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: $border-color-01;
+  font: inherit; /* Inherits font size and family from parent text */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2em;
+
+  &:hover {
+    color: $border-color-03;
+    text-decoration: none; /* Removes underline on hover */
+    outline: none;
+  }
+  &:focus {
+    text-decoration: none; /* Removes underline on hover */
+    outline: none;
+  }
+
+
+  &.testimonial-list__button--previous {
+    grid-column: 1;
+  }
+  &.testimonial-list__button--next {
+    grid-column: 3;
+  }
+}
+.testimonial-list__item {
+  /* Put all testominials in the same cell so they occupy the same space. */
+  grid-column: 2;
+  grid-row: 1;
+
+  transition:
+    visibility $testominial-animation-duration allow-discrete,
+    opacity $testominial-animation-duration ease,
+    transform $testominial-animation-duration ease;
+
+  &:not(.testimonial-list__item--visible) {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale($testominial-animation-scale);
+  }
+  &.testimonial-list__item--visible {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@starting-style {
+  .testimonial-list__item.testimonial-list__item--visible {
+    opacity: 0;
+    transform: scale($testominial-animation-scale);
+  }
+}
+
 // Singular testimonials
 .testimonial {
+  user-select: none;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 .testimonial__author::before {
   content: "— ";
