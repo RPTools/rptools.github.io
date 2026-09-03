@@ -18,9 +18,21 @@ html {
   text-align: center;
 
   .home-header__download-row {
+    margin-bottom: $spacing-unit * .5;
+
     display: flex;
     gap: 2ch;
-    justify-content: center;
+
+    @media screen and (min-width: $on-medium) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: stretch;
+    }
+    @media not screen and (min-width: $on-medium) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
 
     font-size: 1.25em;
 
