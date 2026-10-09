@@ -55,10 +55,15 @@ jobs:
                 "msi": map(select(test("\\.msi$"))) | first,
                 "zip": map(select(test("win.*\\.zip$"))) | first
               },
-              "mac": {
-                "dmg": map(select(test("\\.dmg$"))) | first,
-                "pkg": map(select(test("\\.pkg$"))) | first,
-                "zip": map(select(test("mac.*\\.zip$"))) | first
+              "mac-intel": {
+                "dmg": map(select(test("intel\\.dmg$"))) | first,
+                "pkg": map(select(test("intel\\.pkg$"))) | first,
+                "zip": map(select(test("mac-intel.*\\.zip$"))) | first
+              },
+              "mac-apple-silicon": {
+                "dmg": map(select(test("apple-silicon\\.dmg$"))) | first,
+                "pkg": map(select(test("apple-silicon\\.pkg$"))) | first,
+                "zip": map(select(test("mac-apple-silicon.*\\.zip$"))) | first
               },
               "linux": {
                 "deb": map(select(test("\\.deb$"))) | first,

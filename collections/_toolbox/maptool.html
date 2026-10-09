@@ -32,12 +32,14 @@ legacy: false
         </header>
 
         <input type="radio" id="tab-maptool-windows" name="maptool-platform" checked>
-        <input type="radio" id="tab-maptool-macos" name="maptool-platform">
+        <input type="radio" id="tab-maptool-macos-intel" name="maptool-platform">
+        <input type="radio" id="tab-maptool-macos-apple-silicon" name="maptool-platform">
         <input type="radio" id="tab-maptool-linux" name="maptool-platform">
 
         <ul class="tabbed-pane__tabs">
             <li class="tabbed-pane__tab"><label for="tab-maptool-windows">Windows</label></li>
-            <li class="tabbed-pane__tab"><label for="tab-maptool-macos">macOS</label></li>
+            <li class="tabbed-pane__tab"><label for="tab-maptool-macos-intel">macOS (Intel)</label></li>
+            <li class="tabbed-pane__tab"><label for="tab-maptool-macos-apple-silicon">macOS (Apple Silicon)</label></li>
             <li class="tabbed-pane__tab"><label for="tab-maptool-linux">Linux</label></li>
         </ul>
 
@@ -55,10 +57,22 @@ legacy: false
         </section>
         <section class="tabbed-pane__tab-content">
             <header>
-                <h4>Download for macOS</h4>
+                <h4>Download for macOS (Intel)</h4>
             </header>
 
-            {% include download-button-row.html assets=assets.mac %}
+            {% include download-button-row.html assets=assets.mac-intel %}
+
+            <p>Mac Users are encouraged to use the PKG version of the install.</p>
+            <p>Apple won’t recognize the application as being from an “identified developer”. You will have to allow it
+								to open through System Preferences  > Security & Privacy, and even then some Ctrl-click fanciness is
+								required. See the download page for more information.</p>
+        </section>
+        <section class="tabbed-pane__tab-content">
+            <header>
+                <h4>Download for macOS (Apple Silicon)</h4>
+            </header>
+
+            {% include download-button-row.html assets=assets.mac-apple-silicon %}
 
             <p>Mac Users are encouraged to use the PKG version of the install.</p>
             <p>Apple won’t recognize the application as being from an “identified developer”. You will have to allow it
