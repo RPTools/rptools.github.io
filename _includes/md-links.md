@@ -13,5 +13,5 @@
 [tokentool-github-releases-latest]: {{ site.data.links.github | escape }}/Tokentool/releases/latest/
 [toolbox]: /toolbox/
 [maptool-toolbox]: /toolbox/maptool/
-[tokentool-toolbox]: /toolbox/tokentool/
+[tokentool-toolbox]: /toolbox/token-tool/
 [gradle]: https://gradle.org/
