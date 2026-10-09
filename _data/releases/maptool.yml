@@ -1,23 +1,28 @@
 {
-  "version": "1.18.6",
-  "release-page": "https://github.com/RPTools/maptool/releases/tag/1.18.6",
-  "release-date": "2025-10-30T16:51:10Z",
+  "version": "1.18.7",
+  "release-page": "https://github.com/RPTools/maptool/releases/tag/1.18.7",
+  "release-date": "2026-10-09T05:23:25Z",
   "assets": {
     "windows": {
-      "exe": "https://github.com/RPTools/maptool/releases/download/1.18.6/MapTool-1.18.6.exe",
-      "msi": "https://github.com/RPTools/maptool/releases/download/1.18.6/MapTool-1.18.6.msi",
-      "zip": "https://github.com/RPTools/maptool/releases/download/1.18.6/MapTool-1.18.6-win.zip"
+      "exe": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7.exe",
+      "msi": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7.msi",
+      "zip": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-win.zip"
     },
-    "mac": {
-      "dmg": "https://github.com/RPTools/maptool/releases/download/1.18.6/MapTool-1.18.6.dmg",
-      "pkg": "https://github.com/RPTools/maptool/releases/download/1.18.6/MapTool-1.18.6.pkg",
-      "zip": "https://github.com/RPTools/maptool/releases/download/1.18.6/MapTool-1.18.6-mac.app.zip"
+    "mac-intel": {
+      "dmg": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-intel.dmg",
+      "pkg": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-intel.pkg",
+      "zip": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-mac-intel.app.zip"
+    },
+    "mac-apple-silicon": {
+      "dmg": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-apple-silicon.dmg",
+      "pkg": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-apple-silicon.pkg",
+      "zip": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-mac-apple-silicon.app.zip"
     },
     "linux": {
-      "deb": "https://github.com/RPTools/maptool/releases/download/1.18.6/maptool_1.18.6-amd64.deb",
-      "rpm": "https://github.com/RPTools/maptool/releases/download/1.18.6/maptool-1.18.6-x86_64.rpm",
-      "arch": "https://github.com/RPTools/maptool/releases/download/1.18.6/maptool-1.18.6-x86_64.pkg.tar.zst",
-      "zip": "https://github.com/RPTools/maptool/releases/download/1.18.6/MapTool-1.18.6-linux.zip"
+      "deb": "https://github.com/RPTools/maptool/releases/download/1.18.7/maptool_1.18.7-amd64.deb",
+      "rpm": "https://github.com/RPTools/maptool/releases/download/1.18.7/maptool-1.18.7-x86_64.rpm",
+      "arch": "https://github.com/RPTools/maptool/releases/download/1.18.7/maptool-1.18.7-x86_64.pkg.tar.zst",
+      "zip": "https://github.com/RPTools/maptool/releases/download/1.18.7/MapTool-1.18.7-linux.zip"
     }
   }
 }
