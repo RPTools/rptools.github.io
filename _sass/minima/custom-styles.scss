@@ -128,11 +128,19 @@ html {
     clear: both;
   }
 
+  > section:first-child {
+    margin-top: 0;
+  }
+  > section:last-child {
+    margin-bottom: 0;
+  }
+
   flex-grow: 1;
 }
 
 section {
   display: flow-root;
+  margin: $spacing-unit 0;
 }
 hr {
   clear: both;
