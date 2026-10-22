@@ -622,9 +622,6 @@ figure figcaption {
 
 .tabbed-pane {
 	overflow-x: hidden; /* so we could easily hide the radio inputs */
-	margin: 32px 0;
-	padding-bottom: 16px;
-	// border-bottom: 1px solid #ccc;
 }
 .tabbed-pane [type="radio"] {
 	/* hiding the inputs */
@@ -640,15 +637,12 @@ figure figcaption {
 }
 .tabbed-pane__tab > label {
 	display: block;
-	margin-bottom: -1px;
+	margin-bottom: -1px; /* Hides the pane border under the label. */
 	padding: 12px 15px;
-	border: 1px solid #ccc;
+	border: 1px solid #ccc; /* We'll override the bottom and top borders for the selected label. */
 	background: #eee;
 	color: #666;
-	font-size: 12px;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-weight: bold;
 	cursor: pointer;
 	transition: all 0.3s;
 }
@@ -672,10 +666,10 @@ figure figcaption {
   }
 }
 
-// The number of potential tabs is fixed by the following limit.
-@for $i from 1 through 10 {
+// This styles the selected tab label and displays the corresponding pane.
+@for $i from 1 through $tabbed-pane-max-tab-count {
   .tabbed-pane [type="radio"]:nth-of-type(#{$i}):checked ~ .tabbed-pane__tabs .tabbed-pane__tab:nth-of-type(#{$i}) label {
-	  border-bottom-color: #fff;
+	  border-bottom-color: transparent;
 	  border-top-color: #B721FF;
 	  background: #fff;
 	  color: #222;
