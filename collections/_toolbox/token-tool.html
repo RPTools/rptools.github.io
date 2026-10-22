@@ -35,27 +35,27 @@ assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/downl
             <li class="tabbed-pane__tab"><label for="tab-tokentool-linux">Linux</label></li>
         </ul>
 
-        <section class="tabbed-pane__tab-content">
+        <div class="tabbed-pane__tab-content">
             {% include download-button-row.html assets=assets.windows %}
 
             <p>Use either .MSI (recommended) or .EXE.</p>
             <p>If you have added custom overlays, they should still be accessible when installing this version over previous versions.</p>
             <p>We’re seeing notes from Windows users that they double-click the icon after installing and no window appears. This seems to be an antivirus issue, so check your AV if you have this problem.  See the download page for more information.</p>
-        </section>
-        <section class="tabbed-pane__tab-content">
+        </div>
+        <div class="tabbed-pane__tab-content">
             {% include download-button-row.html assets=assets.mac %}
 
             <p>Use either .PKG (recommended) or .DMG.</p>
             <p>Apple won’t recognize the application as being from an “identified developer”. You will have to allow it to open through System Preferences  > Security & Privacy, and even then some Ctrl-click fanciness is required.  See the download page for more information.</p>
             <p>The macOS Gatekeeper may flag the DMG file as broken. The DMG isn’t actually broken, but GateKeeper doesn’t like that it’s not signed.  See the download page for more information.</p>
-        </section>
-        <section class="tabbed-pane__tab-content">
+        </div>
+        <div class="tabbed-pane__tab-content">
             {% include download-button-row.html assets=assets.linux %}
 
             <p>Use either .deb or .rpm (depending on which packager your system uses).</p>
             <p>The deb version installs under /opt/tokentool/bin as TokenTool.</p>
             <p>It seems that some Linux distributions ship a native library that can’t handle some of the provided overlays.  See the download page for more information.</p>
-        </section>
+        </div>
     </div>
 </section>
 
