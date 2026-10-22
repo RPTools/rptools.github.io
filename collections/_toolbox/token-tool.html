@@ -33,6 +33,10 @@ assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/downl
         </ul>
 
         <div class="tabbed-pane__tab-content">
+            <header>
+                <h4>Download for Windows</h4>
+            </header>
+
             {% include download-button-row.html assets=assets.windows %}
 
             <p>Use either .MSI (recommended) or .EXE.</p>
@@ -40,6 +44,10 @@ assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/downl
             <p>We’re seeing notes from Windows users that they double-click the icon after installing and no window appears. This seems to be an antivirus issue, so check your AV if you have this problem.  See the download page for more information.</p>
         </div>
         <div class="tabbed-pane__tab-content">
+            <header>
+                <h4>Download for macOS (Intel)</h4>
+            </header>
+
             {% include download-button-row.html assets=assets.mac %}
 
             <p>Use either .PKG (recommended) or .DMG.</p>
@@ -47,6 +55,10 @@ assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/downl
             <p>The macOS Gatekeeper may flag the DMG file as broken. The DMG isn’t actually broken, but GateKeeper doesn’t like that it’s not signed.  See the download page for more information.</p>
         </div>
         <div class="tabbed-pane__tab-content">
+            <header>
+                <h4>Download for Linux</h4>
+            </header>
+						
             {% include download-button-row.html assets=assets.linux %}
 
             <p>Use either .deb or .rpm (depending on which packager your system uses).</p>
