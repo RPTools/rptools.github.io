@@ -14,16 +14,16 @@ assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/downl
 {% assign release-date = site.data.releases.tokentool.release-date %}
 {% assign assets = site.data.releases.tokentool.assets %}
 
-<section>
+<section class="headed-section">
     <p>A Token creation tool to create PNG images suitable for Virtual Table Top applications.</p>
     <p>Quick and versatile, it is the best way to create customised tokens for your game.</p>
 
+    <header>
+        <h2>Download {{ page.title | escape }} {{ version | escape }}</h2>
+        <p><a href="{{ release-page | escape }}"><img alt="Release notes for {{ page.title | escape }} {{ version | escape }}" src="https://img.shields.io/badge/github-Release%20Notes%20|%20{{ release-date | date: "%b %d, %Y" | url_encode | replace: '+', '%20' }}-blue?style=for-the-badge&logo=github"></a></p>
+    </header>
+
     <div class="tabbed-pane">
-        <header>
-            <h3>Download {{ page.title | escape }} {{ version | escape }}</h3>
-            <p><a href="{{ release-page | escape }}"><img alt="Release notes for {{ page.title | escape }} {{ version | escape }}" src="https://img.shields.io/badge/github-{{ version | url_encode }}%20Release%20Notes-blue?style=for-the-badge&logo=github"></a></p>
-            <p><em>Released {{ release-date | date: "%a, %d %b %Y" | escape }}</em></p>
-        </header>
 
         <input type="radio" id="tab-tokentool-windows" name="tokentool-platform" checked>
         <input type="radio" id="tab-tokentool-macos" name="tokentool-platform">
@@ -61,7 +61,7 @@ assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/downl
 
 <hr>
 
-<section>
+<section class="headed-section">
     <img class="float float--right float--30" src="/assets/img/tokentool_example_phergus_1.webp">
 		
 		<p>TokenTool removes much of the tedium from creating tokens for use with MapTool or your favorite online gaming
@@ -72,7 +72,7 @@ assets: {"windows": {"exe": "https://github.com/RPTools/TokenTool/releases/downl
 
 <hr>
 
-<section>
+<section class="headed-section">
     <header>
         <h5>TokenTool 2.2 features the following:</h5>
     </header>

@@ -12,7 +12,7 @@ legacy: false
 {% assign release-date = site.data.releases.maptool.release-date %}
 {% assign assets = site.data.releases.maptool.assets %}
 
-<section>
+<section class="headed-section">
     <img class="float float--right float--50" src="/assets/img/Bandit1.webp">
 		<header>
 				<h2>More than a map</h2>
@@ -23,14 +23,13 @@ legacy: false
 				utilize the integrated server function to connect to players wherever there’s an Internet connection.</p>
     <p>Miss your buddy in Singapore? Not a problem. Roll up that character and then your sleeves.</p>
 </section>
-<section>
-    <div class="tabbed-pane">
-        <header>
-            <h3>Download {{ page.title | escape }} {{ version | escape }}</h3>
-            <p><a href="{{ release-page | escape }}"><img alt="Release notes for {{ page.title | escape }} {{ version | escape }}" src="https://img.shields.io/badge/github-{{ version | url_encode }}%20Release%20Notes-blue?style=for-the-badge&logo=github"></a></p>
-            <p><em>Released {{ release-date | date: "%a, %d %b %Y" | escape }}</em></p>
-        </header>
+<section class="headed-section">
+    <header>
+        <h2>Download {{ page.title | escape }} {{ version | escape }}</h2>
+        <p><a href="{{ release-page | escape }}"><img alt="Release notes for {{ page.title | escape }} {{ version | escape }}" src="https://img.shields.io/badge/github-Release%20Notes%20|%20{{ release-date | date: "%b %d, %Y" | url_encode | replace: '+', '%20' }}-blue?style=for-the-badge&logo=github"></a></p>
+    </header>
 
+    <div class="tabbed-pane">
         <input type="radio" id="tab-maptool-windows" name="maptool-platform" checked>
         <input type="radio" id="tab-maptool-macos-intel" name="maptool-platform">
         <input type="radio" id="tab-maptool-macos-apple-silicon" name="maptool-platform">
@@ -94,7 +93,7 @@ legacy: false
 
 <hr>
 
-<section>
+<section class="headed-section">
     <img class="float float--left float--30" src="/assets/img/NoFees.webp">
     <header>
         <h2>You are in control</h2>
@@ -107,7 +106,7 @@ legacy: false
 
 <hr>
 
-<section>
+<section class="headed-section">
     <h2>Amazing Features</h2>
     <ul>
         <li>Supports advanced features like Dynamic Lighting, Vision, Fog of War and much more.</li>
@@ -132,7 +131,7 @@ legacy: false
     </ul>
 </section>
 
-<section>
+<section class="headed-section">
     <h2>How to get started</h2>
     <ul>
         <li>Download the package for your operating system.</li>
@@ -146,14 +145,14 @@ legacy: false
 
 <hr>
 
-<section>
+<section class="headed-section">
     <p>MapTool will always be free and always be supported by people that love to game. So don’t worry: fire up the
 				tool, draw a map, and call your friends. It’s game time!</p>
 </section>
 
 <hr>
 
-<section>
+<section class="headed-section">
     <h2>FAQ</h2>
 
     <h3>Which version to download?</h3>
