@@ -13,17 +13,6 @@ legacy: false
 {% assign assets = site.data.releases.maptool.assets %}
 
 <section class="headed-section">
-    <img class="float float--right float--50" src="/assets/img/Bandit1.webp">
-		<header>
-				<h2>More than a map</h2>
-		</header>
-    <p>Do not be fooled by the name. While it does include powerful tools for the creation of detailed maps, its
-				primary role is a Virtual Table Top, replacing pen, paper, battle mats, and dice.</p>
-    <p>MapTool is a free, open source and extremely flexible VTT with all the bells and whistles. You can
-				utilize the integrated server function to connect to players wherever there’s an Internet connection.</p>
-    <p>Miss your buddy in Singapore? Not a problem. Roll up that character and then your sleeves.</p>
-</section>
-<section class="headed-section">
     <header>
         <h2>Download {{ page.title | escape }} {{ version | escape }}</h2>
         <p><a href="{{ release-page | escape }}"><img alt="Release notes for {{ page.title | escape }} {{ version | escape }}" src="https://img.shields.io/badge/github-Release%20Notes%20|%20{{ release-date | date: "%b %d, %Y" | url_encode | replace: '+', '%20' }}-blue?style=for-the-badge&logo=github"></a></p>
@@ -89,6 +78,18 @@ legacy: false
             <p>The deb version installs under /opt/maptool/bin as MapTool.  See the download page for more information.</p>
         </div>
     </div>
+</section>
+
+<section class="headed-section">
+    <img class="float float--right float--50" src="/assets/img/Bandit1.webp">
+		<header>
+				<h2>More than a map</h2>
+		</header>
+    <p>Do not be fooled by the name. While it does include powerful tools for the creation of detailed maps, its
+				primary role is a Virtual Table Top, replacing pen, paper, battle mats, and dice.</p>
+    <p>MapTool is a free, open source and extremely flexible VTT with all the bells and whistles. You can
+				utilize the integrated server function to connect to players wherever there’s an Internet connection.</p>
+    <p>Miss your buddy in Singapore? Not a problem. Roll up that character and then your sleeves.</p>
 </section>
 
 <hr>
